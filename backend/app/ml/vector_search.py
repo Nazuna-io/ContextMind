@@ -86,7 +86,7 @@ class VectorSearchEngine:
             print("📁 Creating new collection...")
             self.collection = self.client.create_collection(
                 name=self.collection_name,
-                metadata={"description": "ContextMind ad category embeddings"}
+                metadata={"description": "ContextMind ad category embeddings", "hnsw:space": "cosine"}
             )
             print("✅ New collection created")
     
@@ -205,8 +205,10 @@ class VectorSearchEngine:
                 metadata = results['metadatas'][0][i]
                 distance = results['distances'][0][i]
                 
-                # Convert distance to confidence (assuming cosine distance)
-                confidence = max(0.0, 1.0 - distance)
+                # Convert distance to confidence 
+                # ChromaDB cosine distance ranges from 0 (identical) to 2 (opposite)
+                # Convert to similarity: similarity = 1 - (distance / 2)
+                confidence = max(0.0, 1.0 - (distance / 2.0))
                 
                 # Filter by confidence threshold
                 if confidence >= confidence_threshold:

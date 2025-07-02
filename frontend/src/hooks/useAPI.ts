@@ -7,7 +7,7 @@ import {
   URLAnalysisRequest,
   BatchAnalysisRequest,
 } from '../types/api';
-import ContextMindAPI from '../services/api';
+import { ContextMindAPI } from '../services/api';
 
 // Query keys for consistent caching
 export const QUERY_KEYS = {

@@ -61,7 +61,7 @@ const Dashboard: React.FC = () => {
     },
     {
       title: 'Available Categories',
-      value: categories?.data?.total_categories || 0,
+      value: categories?.data?.data?.total_categories || 0,
       unit: 'categories',
       target: '300+ categories',
       icon: <CategoryIcon />,

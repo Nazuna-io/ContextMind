@@ -238,7 +238,12 @@ class MultiGPUEmbedder:
                     inputs = {k: v.to(f"cuda:{self.clip_devices[0]}") for k, v in inputs.items()}
                     
                     # Get image features
-                    image_features = self.clip_model.get_image_features(**inputs)
+                    if hasattr(self.clip_model, 'module'):
+                        # DataParallel wrapped model
+                        image_features = self.clip_model.module.get_image_features(**inputs)
+                    else:
+                        # Single GPU model
+                        image_features = self.clip_model.get_image_features(**inputs)
                     
                     # Normalize and convert to numpy
                     image_features = image_features / image_features.norm(dim=-1, keepdim=True)

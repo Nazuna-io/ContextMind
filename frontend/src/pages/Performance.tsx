@@ -48,12 +48,12 @@ const Performance: React.FC = () => {
 
   // Update performance history when new data arrives
   useEffect(() => {
-    if (performanceMetrics?.data?.vector_search_performance) {
+    if (performanceMetrics?.vector_search_performance) {
       const newData: PerformanceData = {
         timestamp: new Date().toLocaleTimeString(),
-        searchTime: performanceMetrics.data.vector_search_performance.average_time_ms,
-        qps: performanceMetrics.data.vector_search_performance.queries_per_second,
-        successRate: performanceMetrics.data.vector_search_performance.sub_10ms_percent,
+        searchTime: performanceMetrics.vector_search_performance.average_time_ms,
+        qps: performanceMetrics.vector_search_performance.queries_per_second,
+        successRate: performanceMetrics.vector_search_performance.sub_10ms_percent,
       };
 
       setPerformanceHistory(prev => {
@@ -100,7 +100,7 @@ const Performance: React.FC = () => {
     );
   }
 
-  const metrics = performanceMetrics?.data?.vector_search_performance;
+  const metrics = performanceMetrics?.vector_search_performance;
 
   return (
     <Box>
