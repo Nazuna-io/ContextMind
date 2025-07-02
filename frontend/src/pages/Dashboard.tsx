@@ -70,7 +70,7 @@ const Dashboard: React.FC = () => {
     },
     {
       title: 'Success Rate',
-      value: performanceMetrics?.data?.vector_search_performance?.sub_10ms_percentage || 0,
+      value: performanceMetrics?.data?.vector_search_performance?.sub_10ms_percent || 0,
       unit: '%',
       target: '99%+ accuracy',
       icon: <AnalyticsIcon />,

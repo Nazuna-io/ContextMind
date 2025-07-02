@@ -63,7 +63,7 @@ export interface VectorSearchPerformance {
   median_time_ms: number;
   p95_time_ms: number;
   p99_time_ms: number;
-  sub_10ms_percentage: number;
+  sub_10ms_percent: number;
   queries_per_second: number;
 }
 
