@@ -1,0 +1,3745 @@
+{
+  "categories": [
+    {
+      "id": "iab_1",
+      "name": "Arts & Entertainment",
+      "description": "IAB Tier 1 category: Arts & Entertainment",
+      "parent_id": null,
+      "level": 1,
+      "source": "iab",
+      "keywords": [
+        "arts",
+        "entertainment"
+      ]
+    },
+    {
+      "id": "iab_1-1",
+      "name": "Books & Literature",
+      "description": "IAB Tier 2 category: Books & Literature under Arts & Entertainment",
+      "parent_id": "iab_1",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "literature",
+        "books"
+      ]
+    },
+    {
+      "id": "iab_1-2",
+      "name": "Celebrity Fan/Gossip",
+      "description": "IAB Tier 2 category: Celebrity Fan/Gossip under Arts & Entertainment",
+      "parent_id": "iab_1",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "gossip",
+        "celebrity",
+        "fan"
+      ]
+    },
+    {
+      "id": "iab_1-3",
+      "name": "Fine Art",
+      "description": "IAB Tier 2 category: Fine Art under Arts & Entertainment",
+      "parent_id": "iab_1",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "art",
+        "fine"
+      ]
+    },
+    {
+      "id": "iab_1-4",
+      "name": "Humor",
+      "description": "IAB Tier 2 category: Humor under Arts & Entertainment",
+      "parent_id": "iab_1",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "humor"
+      ]
+    },
+    {
+      "id": "iab_1-5",
+      "name": "Movies",
+      "description": "IAB Tier 2 category: Movies under Arts & Entertainment",
+      "parent_id": "iab_1",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "movies"
+      ]
+    },
+    {
+      "id": "iab_1-6",
+      "name": "Music",
+      "description": "IAB Tier 2 category: Music under Arts & Entertainment",
+      "parent_id": "iab_1",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "music"
+      ]
+    },
+    {
+      "id": "iab_1-7",
+      "name": "Television",
+      "description": "IAB Tier 2 category: Television under Arts & Entertainment",
+      "parent_id": "iab_1",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "television"
+      ]
+    },
+    {
+      "id": "iab_1-8",
+      "name": "Comics",
+      "description": "IAB Tier 2 category: Comics under Arts & Entertainment",
+      "parent_id": "iab_1",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "comics"
+      ]
+    },
+    {
+      "id": "iab_1-9",
+      "name": "Entertainment Industry",
+      "description": "IAB Tier 2 category: Entertainment Industry under Arts & Entertainment",
+      "parent_id": "iab_1",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "industry",
+        "entertainment"
+      ]
+    },
+    {
+      "id": "iab_1-10",
+      "name": "Online Games",
+      "description": "IAB Tier 2 category: Online Games under Arts & Entertainment",
+      "parent_id": "iab_1",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "games",
+        "online"
+      ]
+    },
+    {
+      "id": "iab_2",
+      "name": "Automotive",
+      "description": "IAB Tier 1 category: Automotive",
+      "parent_id": null,
+      "level": 1,
+      "source": "iab",
+      "keywords": [
+        "car",
+        "vehicle",
+        "automotive"
+      ]
+    },
+    {
+      "id": "iab_2-1",
+      "name": "Auto Parts",
+      "description": "IAB Tier 2 category: Auto Parts under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "car",
+        "auto",
+        "parts",
+        "vehicle",
+        "automotive"
+      ]
+    },
+    {
+      "id": "iab_2-2",
+      "name": "Auto Repair",
+      "description": "IAB Tier 2 category: Auto Repair under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "car",
+        "auto",
+        "vehicle",
+        "repair",
+        "automotive"
+      ]
+    },
+    {
+      "id": "iab_2-3",
+      "name": "Buying/Selling Cars",
+      "description": "IAB Tier 2 category: Buying/Selling Cars under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "selling",
+        "buying",
+        "cars"
+      ]
+    },
+    {
+      "id": "iab_2-4",
+      "name": "Car Culture",
+      "description": "IAB Tier 2 category: Car Culture under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "car",
+        "culture"
+      ]
+    },
+    {
+      "id": "iab_2-5",
+      "name": "Certified Pre-Owned",
+      "description": "IAB Tier 2 category: Certified Pre-Owned under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "pre-owned",
+        "certified"
+      ]
+    },
+    {
+      "id": "iab_2-6",
+      "name": "Convertible",
+      "description": "IAB Tier 2 category: Convertible under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "convertible"
+      ]
+    },
+    {
+      "id": "iab_2-7",
+      "name": "Coupe",
+      "description": "IAB Tier 2 category: Coupe under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "coupe"
+      ]
+    },
+    {
+      "id": "iab_2-8",
+      "name": "Crossover",
+      "description": "IAB Tier 2 category: Crossover under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "crossover"
+      ]
+    },
+    {
+      "id": "iab_2-9",
+      "name": "Diesel",
+      "description": "IAB Tier 2 category: Diesel under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "diesel"
+      ]
+    },
+    {
+      "id": "iab_2-10",
+      "name": "Electric Vehicle",
+      "description": "IAB Tier 2 category: Electric Vehicle under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "electric",
+        "vehicle"
+      ]
+    },
+    {
+      "id": "iab_2-11",
+      "name": "Hatchback",
+      "description": "IAB Tier 2 category: Hatchback under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "hatchback"
+      ]
+    },
+    {
+      "id": "iab_2-12",
+      "name": "Hybrid",
+      "description": "IAB Tier 2 category: Hybrid under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "hybrid"
+      ]
+    },
+    {
+      "id": "iab_2-13",
+      "name": "Luxury",
+      "description": "IAB Tier 2 category: Luxury under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "luxury"
+      ]
+    },
+    {
+      "id": "iab_2-14",
+      "name": "Minivan",
+      "description": "IAB Tier 2 category: Minivan under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "minivan"
+      ]
+    },
+    {
+      "id": "iab_2-15",
+      "name": "Motorcycles",
+      "description": "IAB Tier 2 category: Motorcycles under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "motorcycles"
+      ]
+    },
+    {
+      "id": "iab_2-16",
+      "name": "Off-Road Vehicles",
+      "description": "IAB Tier 2 category: Off-Road Vehicles under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "vehicles",
+        "off-road"
+      ]
+    },
+    {
+      "id": "iab_2-17",
+      "name": "Performance Vehicles",
+      "description": "IAB Tier 2 category: Performance Vehicles under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "performance",
+        "vehicles"
+      ]
+    },
+    {
+      "id": "iab_2-18",
+      "name": "Pickup",
+      "description": "IAB Tier 2 category: Pickup under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "pickup"
+      ]
+    },
+    {
+      "id": "iab_2-19",
+      "name": "Road-Side Assistance",
+      "description": "IAB Tier 2 category: Road-Side Assistance under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "assistance",
+        "road-side"
+      ]
+    },
+    {
+      "id": "iab_2-20",
+      "name": "Sedan",
+      "description": "IAB Tier 2 category: Sedan under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "sedan"
+      ]
+    },
+    {
+      "id": "iab_2-21",
+      "name": "Trucks & Accessories",
+      "description": "IAB Tier 2 category: Trucks & Accessories under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "accessories",
+        "trucks"
+      ]
+    },
+    {
+      "id": "iab_2-22",
+      "name": "Vintage Cars",
+      "description": "IAB Tier 2 category: Vintage Cars under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "vintage",
+        "cars"
+      ]
+    },
+    {
+      "id": "iab_2-23",
+      "name": "Wagon",
+      "description": "IAB Tier 2 category: Wagon under Automotive",
+      "parent_id": "iab_2",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "wagon"
+      ]
+    },
+    {
+      "id": "iab_3",
+      "name": "Business",
+      "description": "IAB Tier 1 category: Business",
+      "parent_id": null,
+      "level": 1,
+      "source": "iab",
+      "keywords": [
+        "business",
+        "enterprise",
+        "commercial",
+        "corporate"
+      ]
+    },
+    {
+      "id": "iab_3-1",
+      "name": "Advertising",
+      "description": "IAB Tier 2 category: Advertising under Business",
+      "parent_id": "iab_3",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "advertising"
+      ]
+    },
+    {
+      "id": "iab_3-2",
+      "name": "Agriculture",
+      "description": "IAB Tier 2 category: Agriculture under Business",
+      "parent_id": "iab_3",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "agriculture"
+      ]
+    },
+    {
+      "id": "iab_3-3",
+      "name": "Biotech/Biomedical",
+      "description": "IAB Tier 2 category: Biotech/Biomedical under Business",
+      "parent_id": "iab_3",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "biomedical",
+        "digital",
+        "software",
+        "technology",
+        "biotech"
+      ]
+    },
+    {
+      "id": "iab_3-4",
+      "name": "Business Software",
+      "description": "IAB Tier 2 category: Business Software under Business",
+      "parent_id": "iab_3",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "software",
+        "business",
+        "enterprise",
+        "corporate",
+        "commercial"
+      ]
+    },
+    {
+      "id": "iab_3-5",
+      "name": "Construction",
+      "description": "IAB Tier 2 category: Construction under Business",
+      "parent_id": "iab_3",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "construction"
+      ]
+    },
+    {
+      "id": "iab_3-6",
+      "name": "Forestry",
+      "description": "IAB Tier 2 category: Forestry under Business",
+      "parent_id": "iab_3",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "forestry"
+      ]
+    },
+    {
+      "id": "iab_3-7",
+      "name": "Government",
+      "description": "IAB Tier 2 category: Government under Business",
+      "parent_id": "iab_3",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "government"
+      ]
+    },
+    {
+      "id": "iab_3-8",
+      "name": "Green Solutions",
+      "description": "IAB Tier 2 category: Green Solutions under Business",
+      "parent_id": "iab_3",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "solutions",
+        "green"
+      ]
+    },
+    {
+      "id": "iab_3-9",
+      "name": "Human Resources",
+      "description": "IAB Tier 2 category: Human Resources under Business",
+      "parent_id": "iab_3",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "resources",
+        "human"
+      ]
+    },
+    {
+      "id": "iab_3-10",
+      "name": "Logistics",
+      "description": "IAB Tier 2 category: Logistics under Business",
+      "parent_id": "iab_3",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "logistics"
+      ]
+    },
+    {
+      "id": "iab_3-11",
+      "name": "Marketing",
+      "description": "IAB Tier 2 category: Marketing under Business",
+      "parent_id": "iab_3",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "marketing"
+      ]
+    },
+    {
+      "id": "iab_3-12",
+      "name": "Metals",
+      "description": "IAB Tier 2 category: Metals under Business",
+      "parent_id": "iab_3",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "metals"
+      ]
+    },
+    {
+      "id": "iab_3-13",
+      "name": "Manufacturing",
+      "description": "IAB Tier 2 category: Manufacturing under Business",
+      "parent_id": "iab_3",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "manufacturing"
+      ]
+    },
+    {
+      "id": "iab_3-14",
+      "name": "Energy & Utilities",
+      "description": "IAB Tier 2 category: Energy & Utilities under Business",
+      "parent_id": "iab_3",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "energy",
+        "utilities"
+      ]
+    },
+    {
+      "id": "iab_4",
+      "name": "Careers",
+      "description": "IAB Tier 1 category: Careers",
+      "parent_id": null,
+      "level": 1,
+      "source": "iab",
+      "keywords": [
+        "careers"
+      ]
+    },
+    {
+      "id": "iab_4-1",
+      "name": "Career Planning",
+      "description": "IAB Tier 2 category: Career Planning under Careers",
+      "parent_id": "iab_4",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "planning",
+        "career"
+      ]
+    },
+    {
+      "id": "iab_4-2",
+      "name": "College",
+      "description": "IAB Tier 2 category: College under Careers",
+      "parent_id": "iab_4",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "college"
+      ]
+    },
+    {
+      "id": "iab_4-3",
+      "name": "Financial Aid",
+      "description": "IAB Tier 2 category: Financial Aid under Careers",
+      "parent_id": "iab_4",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "financial",
+        "aid"
+      ]
+    },
+    {
+      "id": "iab_4-4",
+      "name": "Job Fairs",
+      "description": "IAB Tier 2 category: Job Fairs under Careers",
+      "parent_id": "iab_4",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "fairs",
+        "job"
+      ]
+    },
+    {
+      "id": "iab_4-5",
+      "name": "Job Search",
+      "description": "IAB Tier 2 category: Job Search under Careers",
+      "parent_id": "iab_4",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "search",
+        "job"
+      ]
+    },
+    {
+      "id": "iab_4-6",
+      "name": "Resume Writing",
+      "description": "IAB Tier 2 category: Resume Writing under Careers",
+      "parent_id": "iab_4",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "resume",
+        "writing"
+      ]
+    },
+    {
+      "id": "iab_4-7",
+      "name": "Nursing",
+      "description": "IAB Tier 2 category: Nursing under Careers",
+      "parent_id": "iab_4",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "nursing"
+      ]
+    },
+    {
+      "id": "iab_4-8",
+      "name": "Scholarships",
+      "description": "IAB Tier 2 category: Scholarships under Careers",
+      "parent_id": "iab_4",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "scholarships"
+      ]
+    },
+    {
+      "id": "iab_4-9",
+      "name": "Telecommuting",
+      "description": "IAB Tier 2 category: Telecommuting under Careers",
+      "parent_id": "iab_4",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "telecommuting"
+      ]
+    },
+    {
+      "id": "iab_4-10",
+      "name": "U.S. Military",
+      "description": "IAB Tier 2 category: U.S. Military under Careers",
+      "parent_id": "iab_4",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "military",
+        "u.s"
+      ]
+    },
+    {
+      "id": "iab_4-11",
+      "name": "Career Advice",
+      "description": "IAB Tier 2 category: Career Advice under Careers",
+      "parent_id": "iab_4",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "advice",
+        "career"
+      ]
+    },
+    {
+      "id": "iab_5",
+      "name": "Education",
+      "description": "IAB Tier 1 category: Education",
+      "parent_id": null,
+      "level": 1,
+      "source": "iab",
+      "keywords": [
+        "education"
+      ]
+    },
+    {
+      "id": "iab_5-1",
+      "name": "7-12 Education",
+      "description": "IAB Tier 2 category: 7-12 Education under Education",
+      "parent_id": "iab_5",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "education",
+        "7-12"
+      ]
+    },
+    {
+      "id": "iab_5-2",
+      "name": "Adult Education",
+      "description": "IAB Tier 2 category: Adult Education under Education",
+      "parent_id": "iab_5",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "adult",
+        "education"
+      ]
+    },
+    {
+      "id": "iab_5-3",
+      "name": "Art History",
+      "description": "IAB Tier 2 category: Art History under Education",
+      "parent_id": "iab_5",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "art",
+        "history"
+      ]
+    },
+    {
+      "id": "iab_5-4",
+      "name": "College Administration",
+      "description": "IAB Tier 2 category: College Administration under Education",
+      "parent_id": "iab_5",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "administration",
+        "college"
+      ]
+    },
+    {
+      "id": "iab_5-5",
+      "name": "College Life",
+      "description": "IAB Tier 2 category: College Life under Education",
+      "parent_id": "iab_5",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "life",
+        "college"
+      ]
+    },
+    {
+      "id": "iab_5-6",
+      "name": "Curriculum",
+      "description": "IAB Tier 2 category: Curriculum under Education",
+      "parent_id": "iab_5",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "curriculum"
+      ]
+    },
+    {
+      "id": "iab_5-7",
+      "name": "Distance Learning",
+      "description": "IAB Tier 2 category: Distance Learning under Education",
+      "parent_id": "iab_5",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "learning",
+        "distance"
+      ]
+    },
+    {
+      "id": "iab_5-8",
+      "name": "English as a 2nd Language",
+      "description": "IAB Tier 2 category: English as a 2nd Language under Education",
+      "parent_id": "iab_5",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "a",
+        "english",
+        "as",
+        "language",
+        "2nd"
+      ]
+    },
+    {
+      "id": "iab_5-9",
+      "name": "Language Learning",
+      "description": "IAB Tier 2 category: Language Learning under Education",
+      "parent_id": "iab_5",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "language",
+        "learning"
+      ]
+    },
+    {
+      "id": "iab_5-10",
+      "name": "Graduate School",
+      "description": "IAB Tier 2 category: Graduate School under Education",
+      "parent_id": "iab_5",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "graduate",
+        "school"
+      ]
+    },
+    {
+      "id": "iab_5-11",
+      "name": "Homeschooling",
+      "description": "IAB Tier 2 category: Homeschooling under Education",
+      "parent_id": "iab_5",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "homeschooling"
+      ]
+    },
+    {
+      "id": "iab_5-12",
+      "name": "Homework/Study Tips",
+      "description": "IAB Tier 2 category: Homework/Study Tips under Education",
+      "parent_id": "iab_5",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "study",
+        "homework",
+        "tips"
+      ]
+    },
+    {
+      "id": "iab_5-13",
+      "name": "K-6 Educators",
+      "description": "IAB Tier 2 category: K-6 Educators under Education",
+      "parent_id": "iab_5",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "k-6",
+        "educators"
+      ]
+    },
+    {
+      "id": "iab_5-14",
+      "name": "Private School",
+      "description": "IAB Tier 2 category: Private School under Education",
+      "parent_id": "iab_5",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "private",
+        "school"
+      ]
+    },
+    {
+      "id": "iab_5-15",
+      "name": "Special Education",
+      "description": "IAB Tier 2 category: Special Education under Education",
+      "parent_id": "iab_5",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "education",
+        "special"
+      ]
+    },
+    {
+      "id": "iab_6",
+      "name": "Family & Parenting",
+      "description": "IAB Tier 1 category: Family & Parenting",
+      "parent_id": null,
+      "level": 1,
+      "source": "iab",
+      "keywords": [
+        "parenting",
+        "family"
+      ]
+    },
+    {
+      "id": "iab_6-1",
+      "name": "Adoption",
+      "description": "IAB Tier 2 category: Adoption under Family & Parenting",
+      "parent_id": "iab_6",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "adoption"
+      ]
+    },
+    {
+      "id": "iab_6-2",
+      "name": "Babies & Toddlers",
+      "description": "IAB Tier 2 category: Babies & Toddlers under Family & Parenting",
+      "parent_id": "iab_6",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "toddlers",
+        "babies"
+      ]
+    },
+    {
+      "id": "iab_6-3",
+      "name": "Daycare/Pre School",
+      "description": "IAB Tier 2 category: Daycare/Pre School under Family & Parenting",
+      "parent_id": "iab_6",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "daycare",
+        "pre",
+        "school"
+      ]
+    },
+    {
+      "id": "iab_6-4",
+      "name": "Family Internet",
+      "description": "IAB Tier 2 category: Family Internet under Family & Parenting",
+      "parent_id": "iab_6",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "internet",
+        "family"
+      ]
+    },
+    {
+      "id": "iab_6-5",
+      "name": "Parenting - K-6 Kids",
+      "description": "IAB Tier 2 category: Parenting - K-6 Kids under Family & Parenting",
+      "parent_id": "iab_6",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "kids",
+        "-",
+        "k-6",
+        "parenting"
+      ]
+    },
+    {
+      "id": "iab_6-6",
+      "name": "Parenting teens",
+      "description": "IAB Tier 2 category: Parenting teens under Family & Parenting",
+      "parent_id": "iab_6",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "parenting",
+        "teens"
+      ]
+    },
+    {
+      "id": "iab_6-7",
+      "name": "Pregnancy",
+      "description": "IAB Tier 2 category: Pregnancy under Family & Parenting",
+      "parent_id": "iab_6",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "pregnancy"
+      ]
+    },
+    {
+      "id": "iab_6-8",
+      "name": "Special Needs Kids",
+      "description": "IAB Tier 2 category: Special Needs Kids under Family & Parenting",
+      "parent_id": "iab_6",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "kids",
+        "needs",
+        "special"
+      ]
+    },
+    {
+      "id": "iab_6-9",
+      "name": "Eldercare",
+      "description": "IAB Tier 2 category: Eldercare under Family & Parenting",
+      "parent_id": "iab_6",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "eldercare"
+      ]
+    },
+    {
+      "id": "iab_7",
+      "name": "Health & Fitness",
+      "description": "IAB Tier 1 category: Health & Fitness",
+      "parent_id": null,
+      "level": 1,
+      "source": "iab",
+      "keywords": [
+        "health",
+        "fitness",
+        "healthcare",
+        "medical",
+        "wellness"
+      ]
+    },
+    {
+      "id": "iab_7-1",
+      "name": "Exercise",
+      "description": "IAB Tier 2 category: Exercise under Health & Fitness",
+      "parent_id": "iab_7",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "exercise"
+      ]
+    },
+    {
+      "id": "iab_7-2",
+      "name": "Alternative Medicine",
+      "description": "IAB Tier 2 category: Alternative Medicine under Health & Fitness",
+      "parent_id": "iab_7",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "alternative",
+        "medicine"
+      ]
+    },
+    {
+      "id": "iab_7-3",
+      "name": "Nutrition",
+      "description": "IAB Tier 2 category: Nutrition under Health & Fitness",
+      "parent_id": "iab_7",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "nutrition"
+      ]
+    },
+    {
+      "id": "iab_7-4",
+      "name": "Weight Loss",
+      "description": "IAB Tier 2 category: Weight Loss under Health & Fitness",
+      "parent_id": "iab_7",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "weight",
+        "loss"
+      ]
+    },
+    {
+      "id": "iab_7-5",
+      "name": "Men's Health",
+      "description": "IAB Tier 2 category: Men's Health under Health & Fitness",
+      "parent_id": "iab_7",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "health",
+        "men's",
+        "healthcare",
+        "medical",
+        "wellness"
+      ]
+    },
+    {
+      "id": "iab_7-6",
+      "name": "Women's Health",
+      "description": "IAB Tier 2 category: Women's Health under Health & Fitness",
+      "parent_id": "iab_7",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "women's",
+        "health",
+        "healthcare",
+        "medical",
+        "wellness"
+      ]
+    },
+    {
+      "id": "iab_7-7",
+      "name": "Dental Care",
+      "description": "IAB Tier 2 category: Dental Care under Health & Fitness",
+      "parent_id": "iab_7",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "care",
+        "dental"
+      ]
+    },
+    {
+      "id": "iab_7-8",
+      "name": "Mental Health",
+      "description": "IAB Tier 2 category: Mental Health under Health & Fitness",
+      "parent_id": "iab_7",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "health",
+        "healthcare",
+        "medical",
+        "mental",
+        "wellness"
+      ]
+    },
+    {
+      "id": "iab_7-9",
+      "name": "Physical Therapy",
+      "description": "IAB Tier 2 category: Physical Therapy under Health & Fitness",
+      "parent_id": "iab_7",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "therapy",
+        "physical"
+      ]
+    },
+    {
+      "id": "iab_7-10",
+      "name": "Senior Health",
+      "description": "IAB Tier 2 category: Senior Health under Health & Fitness",
+      "parent_id": "iab_7",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "health",
+        "senior",
+        "healthcare",
+        "medical",
+        "wellness"
+      ]
+    },
+    {
+      "id": "iab_7-11",
+      "name": "Chronic Conditions",
+      "description": "IAB Tier 2 category: Chronic Conditions under Health & Fitness",
+      "parent_id": "iab_7",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "chronic",
+        "conditions"
+      ]
+    },
+    {
+      "id": "iab_7-12",
+      "name": "Fitness Equipment",
+      "description": "IAB Tier 2 category: Fitness Equipment under Health & Fitness",
+      "parent_id": "iab_7",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "equipment",
+        "fitness"
+      ]
+    },
+    {
+      "id": "iab_8",
+      "name": "Food & Drink",
+      "description": "IAB Tier 1 category: Food & Drink",
+      "parent_id": null,
+      "level": 1,
+      "source": "iab",
+      "keywords": [
+        "dining",
+        "drink",
+        "cooking",
+        "food",
+        "cuisine"
+      ]
+    },
+    {
+      "id": "iab_8-1",
+      "name": "Cooking",
+      "description": "IAB Tier 2 category: Cooking under Food & Drink",
+      "parent_id": "iab_8",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "iab_8-2",
+      "name": "Cuisine",
+      "description": "IAB Tier 2 category: Cuisine under Food & Drink",
+      "parent_id": "iab_8",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "cuisine"
+      ]
+    },
+    {
+      "id": "iab_8-3",
+      "name": "Restaurants",
+      "description": "IAB Tier 2 category: Restaurants under Food & Drink",
+      "parent_id": "iab_8",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "restaurants"
+      ]
+    },
+    {
+      "id": "iab_8-4",
+      "name": "Wine",
+      "description": "IAB Tier 2 category: Wine under Food & Drink",
+      "parent_id": "iab_8",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "wine"
+      ]
+    },
+    {
+      "id": "iab_8-5",
+      "name": "Vegetarian",
+      "description": "IAB Tier 2 category: Vegetarian under Food & Drink",
+      "parent_id": "iab_8",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "vegetarian"
+      ]
+    },
+    {
+      "id": "iab_8-6",
+      "name": "Healthy Eating",
+      "description": "IAB Tier 2 category: Healthy Eating under Food & Drink",
+      "parent_id": "iab_8",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "healthy",
+        "eating",
+        "healthcare",
+        "medical",
+        "wellness"
+      ]
+    },
+    {
+      "id": "iab_8-7",
+      "name": "Recipes",
+      "description": "IAB Tier 2 category: Recipes under Food & Drink",
+      "parent_id": "iab_8",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "recipes"
+      ]
+    },
+    {
+      "id": "iab_8-8",
+      "name": "Food Allergies",
+      "description": "IAB Tier 2 category: Food Allergies under Food & Drink",
+      "parent_id": "iab_8",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "dining",
+        "cooking",
+        "food",
+        "allergies",
+        "cuisine"
+      ]
+    },
+    {
+      "id": "iab_8-9",
+      "name": "Beverages",
+      "description": "IAB Tier 2 category: Beverages under Food & Drink",
+      "parent_id": "iab_8",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "beverages"
+      ]
+    },
+    {
+      "id": "iab_8-10",
+      "name": "Coffee & Tea",
+      "description": "IAB Tier 2 category: Coffee & Tea under Food & Drink",
+      "parent_id": "iab_8",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "coffee",
+        "tea"
+      ]
+    },
+    {
+      "id": "iab_9",
+      "name": "Hobbies & Interests",
+      "description": "IAB Tier 1 category: Hobbies & Interests",
+      "parent_id": null,
+      "level": 1,
+      "source": "iab",
+      "keywords": [
+        "interests",
+        "hobbies"
+      ]
+    },
+    {
+      "id": "iab_9-1",
+      "name": "Arts & Crafts",
+      "description": "IAB Tier 2 category: Arts & Crafts under Hobbies & Interests",
+      "parent_id": "iab_9",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "crafts",
+        "arts"
+      ]
+    },
+    {
+      "id": "iab_9-2",
+      "name": "Photography",
+      "description": "IAB Tier 2 category: Photography under Hobbies & Interests",
+      "parent_id": "iab_9",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "photography"
+      ]
+    },
+    {
+      "id": "iab_9-3",
+      "name": "Collecting",
+      "description": "IAB Tier 2 category: Collecting under Hobbies & Interests",
+      "parent_id": "iab_9",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "collecting"
+      ]
+    },
+    {
+      "id": "iab_9-4",
+      "name": "Gaming",
+      "description": "IAB Tier 2 category: Gaming under Hobbies & Interests",
+      "parent_id": "iab_9",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "gaming"
+      ]
+    },
+    {
+      "id": "iab_9-5",
+      "name": "Gardening",
+      "description": "IAB Tier 2 category: Gardening under Hobbies & Interests",
+      "parent_id": "iab_9",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "gardening"
+      ]
+    },
+    {
+      "id": "iab_9-6",
+      "name": "Reading",
+      "description": "IAB Tier 2 category: Reading under Hobbies & Interests",
+      "parent_id": "iab_9",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "reading"
+      ]
+    },
+    {
+      "id": "iab_9-7",
+      "name": "Travel",
+      "description": "IAB Tier 2 category: Travel under Hobbies & Interests",
+      "parent_id": "iab_9",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "travel",
+        "trip",
+        "vacation",
+        "tourism"
+      ]
+    },
+    {
+      "id": "iab_9-8",
+      "name": "Sports",
+      "description": "IAB Tier 2 category: Sports under Hobbies & Interests",
+      "parent_id": "iab_9",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "sports"
+      ]
+    },
+    {
+      "id": "iab_9-9",
+      "name": "Outdoor Activities",
+      "description": "IAB Tier 2 category: Outdoor Activities under Hobbies & Interests",
+      "parent_id": "iab_9",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "outdoor",
+        "activities"
+      ]
+    },
+    {
+      "id": "iab_9-10",
+      "name": "DIY Projects",
+      "description": "IAB Tier 2 category: DIY Projects under Hobbies & Interests",
+      "parent_id": "iab_9",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "projects",
+        "diy"
+      ]
+    },
+    {
+      "id": "iab_10",
+      "name": "Home & Garden",
+      "description": "IAB Tier 1 category: Home & Garden",
+      "parent_id": null,
+      "level": 1,
+      "source": "iab",
+      "keywords": [
+        "home",
+        "garden"
+      ]
+    },
+    {
+      "id": "iab_10-1",
+      "name": "Home Improvement",
+      "description": "IAB Tier 2 category: Home Improvement under Home & Garden",
+      "parent_id": "iab_10",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "home",
+        "improvement"
+      ]
+    },
+    {
+      "id": "iab_10-2",
+      "name": "Interior Design",
+      "description": "IAB Tier 2 category: Interior Design under Home & Garden",
+      "parent_id": "iab_10",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "interior",
+        "design"
+      ]
+    },
+    {
+      "id": "iab_10-3",
+      "name": "Landscaping",
+      "description": "IAB Tier 2 category: Landscaping under Home & Garden",
+      "parent_id": "iab_10",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "landscaping"
+      ]
+    },
+    {
+      "id": "iab_10-4",
+      "name": "Appliances",
+      "description": "IAB Tier 2 category: Appliances under Home & Garden",
+      "parent_id": "iab_10",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "appliances"
+      ]
+    },
+    {
+      "id": "iab_10-5",
+      "name": "Home Security",
+      "description": "IAB Tier 2 category: Home Security under Home & Garden",
+      "parent_id": "iab_10",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "home",
+        "security"
+      ]
+    },
+    {
+      "id": "iab_10-6",
+      "name": "Real Estate",
+      "description": "IAB Tier 2 category: Real Estate under Home & Garden",
+      "parent_id": "iab_10",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "real",
+        "estate"
+      ]
+    },
+    {
+      "id": "iab_10-7",
+      "name": "Moving & Storage",
+      "description": "IAB Tier 2 category: Moving & Storage under Home & Garden",
+      "parent_id": "iab_10",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "storage",
+        "moving"
+      ]
+    },
+    {
+      "id": "iab_10-8",
+      "name": "Furniture",
+      "description": "IAB Tier 2 category: Furniture under Home & Garden",
+      "parent_id": "iab_10",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "furniture"
+      ]
+    },
+    {
+      "id": "iab_10-9",
+      "name": "Home Maintenance",
+      "description": "IAB Tier 2 category: Home Maintenance under Home & Garden",
+      "parent_id": "iab_10",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "home",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "iab_10-10",
+      "name": "Smart Home",
+      "description": "IAB Tier 2 category: Smart Home under Home & Garden",
+      "parent_id": "iab_10",
+      "level": 2,
+      "source": "iab",
+      "keywords": [
+        "home",
+        "smart"
+      ]
+    },
+    {
+      "id": "google_1000",
+      "name": "Autos & Vehicles",
+      "description": "Google Ads category: Autos & Vehicles",
+      "parent_id": null,
+      "level": 1,
+      "source": "google",
+      "keywords": [
+        "vehicles",
+        "car",
+        "vehicle",
+        "automotive",
+        "autos"
+      ]
+    },
+    {
+      "id": "google_1001",
+      "name": "Auto Parts & Accessories",
+      "description": "Google Ads subcategory: Auto Parts & Accessories under Autos & Vehicles",
+      "parent_id": "google_1000",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "car",
+        "auto",
+        "parts",
+        "vehicle",
+        "automotive",
+        "accessories"
+      ]
+    },
+    {
+      "id": "google_1002",
+      "name": "Auto Repair",
+      "description": "Google Ads subcategory: Auto Repair under Autos & Vehicles",
+      "parent_id": "google_1000",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "car",
+        "auto",
+        "vehicle",
+        "repair",
+        "automotive"
+      ]
+    },
+    {
+      "id": "google_1003",
+      "name": "Car Dealers",
+      "description": "Google Ads subcategory: Car Dealers under Autos & Vehicles",
+      "parent_id": "google_1000",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "dealers",
+        "car"
+      ]
+    },
+    {
+      "id": "google_1004",
+      "name": "Motorcycles",
+      "description": "Google Ads subcategory: Motorcycles under Autos & Vehicles",
+      "parent_id": "google_1000",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "motorcycles"
+      ]
+    },
+    {
+      "id": "google_1005",
+      "name": "Motor Vehicles",
+      "description": "Google Ads subcategory: Motor Vehicles under Autos & Vehicles",
+      "parent_id": "google_1000",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "vehicles",
+        "motor"
+      ]
+    },
+    {
+      "id": "google_1006",
+      "name": "Trucks & Commercial Vehicles",
+      "description": "Google Ads subcategory: Trucks & Commercial Vehicles under Autos & Vehicles",
+      "parent_id": "google_1000",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "vehicles",
+        "commercial",
+        "trucks"
+      ]
+    },
+    {
+      "id": "google_1007",
+      "name": "Beauty & Fitness",
+      "description": "Google Ads category: Beauty & Fitness",
+      "parent_id": null,
+      "level": 1,
+      "source": "google",
+      "keywords": [
+        "beauty",
+        "fitness"
+      ]
+    },
+    {
+      "id": "google_1008",
+      "name": "Beauty Salons & Services",
+      "description": "Google Ads subcategory: Beauty Salons & Services under Beauty & Fitness",
+      "parent_id": "google_1007",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "services",
+        "beauty",
+        "salons"
+      ]
+    },
+    {
+      "id": "google_1009",
+      "name": "Fitness",
+      "description": "Google Ads subcategory: Fitness under Beauty & Fitness",
+      "parent_id": "google_1007",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "fitness"
+      ]
+    },
+    {
+      "id": "google_1010",
+      "name": "Hair Care",
+      "description": "Google Ads subcategory: Hair Care under Beauty & Fitness",
+      "parent_id": "google_1007",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "hair",
+        "care"
+      ]
+    },
+    {
+      "id": "google_1011",
+      "name": "Hair Salons",
+      "description": "Google Ads subcategory: Hair Salons under Beauty & Fitness",
+      "parent_id": "google_1007",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "hair",
+        "salons"
+      ]
+    },
+    {
+      "id": "google_1012",
+      "name": "Skin Care",
+      "description": "Google Ads subcategory: Skin Care under Beauty & Fitness",
+      "parent_id": "google_1007",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "skin",
+        "care"
+      ]
+    },
+    {
+      "id": "google_1013",
+      "name": "Spas",
+      "description": "Google Ads subcategory: Spas under Beauty & Fitness",
+      "parent_id": "google_1007",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "spas"
+      ]
+    },
+    {
+      "id": "google_1014",
+      "name": "Weight Loss",
+      "description": "Google Ads subcategory: Weight Loss under Beauty & Fitness",
+      "parent_id": "google_1007",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "weight",
+        "loss"
+      ]
+    },
+    {
+      "id": "google_1015",
+      "name": "Business & Industrial",
+      "description": "Google Ads category: Business & Industrial",
+      "parent_id": null,
+      "level": 1,
+      "source": "google",
+      "keywords": [
+        "industrial",
+        "business",
+        "enterprise",
+        "corporate",
+        "commercial"
+      ]
+    },
+    {
+      "id": "google_1016",
+      "name": "Advertising & Marketing",
+      "description": "Google Ads subcategory: Advertising & Marketing under Business & Industrial",
+      "parent_id": "google_1015",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "marketing",
+        "advertising"
+      ]
+    },
+    {
+      "id": "google_1017",
+      "name": "Aerospace & Defense",
+      "description": "Google Ads subcategory: Aerospace & Defense under Business & Industrial",
+      "parent_id": "google_1015",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "defense",
+        "aerospace"
+      ]
+    },
+    {
+      "id": "google_1018",
+      "name": "Agriculture & Forestry",
+      "description": "Google Ads subcategory: Agriculture & Forestry under Business & Industrial",
+      "parent_id": "google_1015",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "forestry",
+        "agriculture"
+      ]
+    },
+    {
+      "id": "google_1019",
+      "name": "Business Services",
+      "description": "Google Ads subcategory: Business Services under Business & Industrial",
+      "parent_id": "google_1015",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "services",
+        "business",
+        "enterprise",
+        "corporate",
+        "commercial"
+      ]
+    },
+    {
+      "id": "google_1020",
+      "name": "Construction & Maintenance",
+      "description": "Google Ads subcategory: Construction & Maintenance under Business & Industrial",
+      "parent_id": "google_1015",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "maintenance",
+        "construction"
+      ]
+    },
+    {
+      "id": "google_1021",
+      "name": "Energy & Utilities",
+      "description": "Google Ads subcategory: Energy & Utilities under Business & Industrial",
+      "parent_id": "google_1015",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "energy",
+        "utilities"
+      ]
+    },
+    {
+      "id": "google_1022",
+      "name": "Finance",
+      "description": "Google Ads subcategory: Finance under Business & Industrial",
+      "parent_id": "google_1015",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "finance",
+        "financial",
+        "banking",
+        "money"
+      ]
+    },
+    {
+      "id": "google_1023",
+      "name": "Manufacturing",
+      "description": "Google Ads subcategory: Manufacturing under Business & Industrial",
+      "parent_id": "google_1015",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "manufacturing"
+      ]
+    },
+    {
+      "id": "google_1024",
+      "name": "Retail Trade",
+      "description": "Google Ads subcategory: Retail Trade under Business & Industrial",
+      "parent_id": "google_1015",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "retail",
+        "trade"
+      ]
+    },
+    {
+      "id": "google_1025",
+      "name": "Transportation & Logistics",
+      "description": "Google Ads subcategory: Transportation & Logistics under Business & Industrial",
+      "parent_id": "google_1015",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "logistics",
+        "transportation"
+      ]
+    },
+    {
+      "id": "google_1026",
+      "name": "Computers & Electronics",
+      "description": "Google Ads category: Computers & Electronics",
+      "parent_id": null,
+      "level": 1,
+      "source": "google",
+      "keywords": [
+        "electronics",
+        "computers"
+      ]
+    },
+    {
+      "id": "google_1027",
+      "name": "Computer Hardware",
+      "description": "Google Ads subcategory: Computer Hardware under Computers & Electronics",
+      "parent_id": "google_1026",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "hardware",
+        "computer"
+      ]
+    },
+    {
+      "id": "google_1028",
+      "name": "Computer Software",
+      "description": "Google Ads subcategory: Computer Software under Computers & Electronics",
+      "parent_id": "google_1026",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "software",
+        "computer"
+      ]
+    },
+    {
+      "id": "google_1029",
+      "name": "Consumer Electronics",
+      "description": "Google Ads subcategory: Consumer Electronics under Computers & Electronics",
+      "parent_id": "google_1026",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "consumer",
+        "electronics"
+      ]
+    },
+    {
+      "id": "google_1030",
+      "name": "Internet & Telecom",
+      "description": "Google Ads subcategory: Internet & Telecom under Computers & Electronics",
+      "parent_id": "google_1026",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "telecom",
+        "internet"
+      ]
+    },
+    {
+      "id": "google_1031",
+      "name": "Video Games",
+      "description": "Google Ads subcategory: Video Games under Computers & Electronics",
+      "parent_id": "google_1026",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "video",
+        "games"
+      ]
+    },
+    {
+      "id": "google_1032",
+      "name": "Mobile Devices",
+      "description": "Google Ads subcategory: Mobile Devices under Computers & Electronics",
+      "parent_id": "google_1026",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "mobile",
+        "devices"
+      ]
+    },
+    {
+      "id": "google_1033",
+      "name": "Finance",
+      "description": "Google Ads category: Finance",
+      "parent_id": null,
+      "level": 1,
+      "source": "google",
+      "keywords": [
+        "finance",
+        "financial",
+        "banking",
+        "money"
+      ]
+    },
+    {
+      "id": "google_1034",
+      "name": "Banking",
+      "description": "Google Ads subcategory: Banking under Finance",
+      "parent_id": "google_1033",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "banking"
+      ]
+    },
+    {
+      "id": "google_1035",
+      "name": "Credit Cards",
+      "description": "Google Ads subcategory: Credit Cards under Finance",
+      "parent_id": "google_1033",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "credit",
+        "cards"
+      ]
+    },
+    {
+      "id": "google_1036",
+      "name": "Insurance",
+      "description": "Google Ads subcategory: Insurance under Finance",
+      "parent_id": "google_1033",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "insurance"
+      ]
+    },
+    {
+      "id": "google_1037",
+      "name": "Investing",
+      "description": "Google Ads subcategory: Investing under Finance",
+      "parent_id": "google_1033",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "investing"
+      ]
+    },
+    {
+      "id": "google_1038",
+      "name": "Loans",
+      "description": "Google Ads subcategory: Loans under Finance",
+      "parent_id": "google_1033",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "loans"
+      ]
+    },
+    {
+      "id": "google_1039",
+      "name": "Tax Preparation",
+      "description": "Google Ads subcategory: Tax Preparation under Finance",
+      "parent_id": "google_1033",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "preparation",
+        "tax"
+      ]
+    },
+    {
+      "id": "google_1040",
+      "name": "Financial Planning",
+      "description": "Google Ads subcategory: Financial Planning under Finance",
+      "parent_id": "google_1033",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "financial",
+        "planning"
+      ]
+    },
+    {
+      "id": "google_1041",
+      "name": "Food & Drink",
+      "description": "Google Ads category: Food & Drink",
+      "parent_id": null,
+      "level": 1,
+      "source": "google",
+      "keywords": [
+        "dining",
+        "drink",
+        "cooking",
+        "food",
+        "cuisine"
+      ]
+    },
+    {
+      "id": "google_1042",
+      "name": "Restaurants",
+      "description": "Google Ads subcategory: Restaurants under Food & Drink",
+      "parent_id": "google_1041",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "restaurants"
+      ]
+    },
+    {
+      "id": "google_1043",
+      "name": "Food Delivery",
+      "description": "Google Ads subcategory: Food Delivery under Food & Drink",
+      "parent_id": "google_1041",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "dining",
+        "cooking",
+        "food",
+        "delivery",
+        "cuisine"
+      ]
+    },
+    {
+      "id": "google_1044",
+      "name": "Grocery Stores",
+      "description": "Google Ads subcategory: Grocery Stores under Food & Drink",
+      "parent_id": "google_1041",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "grocery",
+        "stores"
+      ]
+    },
+    {
+      "id": "google_1045",
+      "name": "Beverages",
+      "description": "Google Ads subcategory: Beverages under Food & Drink",
+      "parent_id": "google_1041",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "beverages"
+      ]
+    },
+    {
+      "id": "google_1046",
+      "name": "Cooking & Recipes",
+      "description": "Google Ads subcategory: Cooking & Recipes under Food & Drink",
+      "parent_id": "google_1041",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "recipes",
+        "cooking"
+      ]
+    },
+    {
+      "id": "google_1047",
+      "name": "Food Production",
+      "description": "Google Ads subcategory: Food Production under Food & Drink",
+      "parent_id": "google_1041",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "dining",
+        "production",
+        "cooking",
+        "food",
+        "cuisine"
+      ]
+    },
+    {
+      "id": "google_1048",
+      "name": "Health",
+      "description": "Google Ads category: Health",
+      "parent_id": null,
+      "level": 1,
+      "source": "google",
+      "keywords": [
+        "healthcare",
+        "health",
+        "wellness",
+        "medical"
+      ]
+    },
+    {
+      "id": "google_1049",
+      "name": "Health Services",
+      "description": "Google Ads subcategory: Health Services under Health",
+      "parent_id": "google_1048",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "health",
+        "healthcare",
+        "medical",
+        "services",
+        "wellness"
+      ]
+    },
+    {
+      "id": "google_1050",
+      "name": "Medical Devices",
+      "description": "Google Ads subcategory: Medical Devices under Health",
+      "parent_id": "google_1048",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "devices",
+        "medical"
+      ]
+    },
+    {
+      "id": "google_1051",
+      "name": "Mental Health",
+      "description": "Google Ads subcategory: Mental Health under Health",
+      "parent_id": "google_1048",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "health",
+        "healthcare",
+        "medical",
+        "mental",
+        "wellness"
+      ]
+    },
+    {
+      "id": "google_1052",
+      "name": "Nutrition",
+      "description": "Google Ads subcategory: Nutrition under Health",
+      "parent_id": "google_1048",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "nutrition"
+      ]
+    },
+    {
+      "id": "google_1053",
+      "name": "Pharmaceuticals",
+      "description": "Google Ads subcategory: Pharmaceuticals under Health",
+      "parent_id": "google_1048",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "pharmaceuticals"
+      ]
+    },
+    {
+      "id": "google_1054",
+      "name": "Alternative Medicine",
+      "description": "Google Ads subcategory: Alternative Medicine under Health",
+      "parent_id": "google_1048",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "alternative",
+        "medicine"
+      ]
+    },
+    {
+      "id": "google_1055",
+      "name": "Hobbies & Leisure",
+      "description": "Google Ads category: Hobbies & Leisure",
+      "parent_id": null,
+      "level": 1,
+      "source": "google",
+      "keywords": [
+        "leisure",
+        "hobbies"
+      ]
+    },
+    {
+      "id": "google_1056",
+      "name": "Arts & Crafts",
+      "description": "Google Ads subcategory: Arts & Crafts under Hobbies & Leisure",
+      "parent_id": "google_1055",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "crafts",
+        "arts"
+      ]
+    },
+    {
+      "id": "google_1057",
+      "name": "Collecting",
+      "description": "Google Ads subcategory: Collecting under Hobbies & Leisure",
+      "parent_id": "google_1055",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "collecting"
+      ]
+    },
+    {
+      "id": "google_1058",
+      "name": "Photography",
+      "description": "Google Ads subcategory: Photography under Hobbies & Leisure",
+      "parent_id": "google_1055",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "photography"
+      ]
+    },
+    {
+      "id": "google_1059",
+      "name": "Reading",
+      "description": "Google Ads subcategory: Reading under Hobbies & Leisure",
+      "parent_id": "google_1055",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "reading"
+      ]
+    },
+    {
+      "id": "google_1060",
+      "name": "Sports & Recreation",
+      "description": "Google Ads subcategory: Sports & Recreation under Hobbies & Leisure",
+      "parent_id": "google_1055",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "sports",
+        "recreation"
+      ]
+    },
+    {
+      "id": "google_1061",
+      "name": "Travel",
+      "description": "Google Ads subcategory: Travel under Hobbies & Leisure",
+      "parent_id": "google_1055",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "travel",
+        "trip",
+        "vacation",
+        "tourism"
+      ]
+    },
+    {
+      "id": "google_1062",
+      "name": "Gaming",
+      "description": "Google Ads subcategory: Gaming under Hobbies & Leisure",
+      "parent_id": "google_1055",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "gaming"
+      ]
+    },
+    {
+      "id": "google_1063",
+      "name": "Home & Garden",
+      "description": "Google Ads category: Home & Garden",
+      "parent_id": null,
+      "level": 1,
+      "source": "google",
+      "keywords": [
+        "home",
+        "garden"
+      ]
+    },
+    {
+      "id": "google_1064",
+      "name": "Home Improvement",
+      "description": "Google Ads subcategory: Home Improvement under Home & Garden",
+      "parent_id": "google_1063",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "home",
+        "improvement"
+      ]
+    },
+    {
+      "id": "google_1065",
+      "name": "Furniture",
+      "description": "Google Ads subcategory: Furniture under Home & Garden",
+      "parent_id": "google_1063",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "furniture"
+      ]
+    },
+    {
+      "id": "google_1066",
+      "name": "Home Security",
+      "description": "Google Ads subcategory: Home Security under Home & Garden",
+      "parent_id": "google_1063",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "home",
+        "security"
+      ]
+    },
+    {
+      "id": "google_1067",
+      "name": "Real Estate",
+      "description": "Google Ads subcategory: Real Estate under Home & Garden",
+      "parent_id": "google_1063",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "real",
+        "estate"
+      ]
+    },
+    {
+      "id": "google_1068",
+      "name": "Gardening",
+      "description": "Google Ads subcategory: Gardening under Home & Garden",
+      "parent_id": "google_1063",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "gardening"
+      ]
+    },
+    {
+      "id": "google_1069",
+      "name": "Interior Design",
+      "description": "Google Ads subcategory: Interior Design under Home & Garden",
+      "parent_id": "google_1063",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "interior",
+        "design"
+      ]
+    },
+    {
+      "id": "google_1070",
+      "name": "Home Appliances",
+      "description": "Google Ads subcategory: Home Appliances under Home & Garden",
+      "parent_id": "google_1063",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "home",
+        "appliances"
+      ]
+    },
+    {
+      "id": "google_1071",
+      "name": "Internet & Telecom",
+      "description": "Google Ads category: Internet & Telecom",
+      "parent_id": null,
+      "level": 1,
+      "source": "google",
+      "keywords": [
+        "telecom",
+        "internet"
+      ]
+    },
+    {
+      "id": "google_1072",
+      "name": "Mobile Service",
+      "description": "Google Ads subcategory: Mobile Service under Internet & Telecom",
+      "parent_id": "google_1071",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "mobile",
+        "service"
+      ]
+    },
+    {
+      "id": "google_1073",
+      "name": "Internet Service",
+      "description": "Google Ads subcategory: Internet Service under Internet & Telecom",
+      "parent_id": "google_1071",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "internet",
+        "service"
+      ]
+    },
+    {
+      "id": "google_1074",
+      "name": "Web Design",
+      "description": "Google Ads subcategory: Web Design under Internet & Telecom",
+      "parent_id": "google_1071",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "web",
+        "design"
+      ]
+    },
+    {
+      "id": "google_1075",
+      "name": "Social Media",
+      "description": "Google Ads subcategory: Social Media under Internet & Telecom",
+      "parent_id": "google_1071",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "social",
+        "media"
+      ]
+    },
+    {
+      "id": "google_1076",
+      "name": "E-commerce",
+      "description": "Google Ads subcategory: E-commerce under Internet & Telecom",
+      "parent_id": "google_1071",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "e-commerce"
+      ]
+    },
+    {
+      "id": "google_1077",
+      "name": "Online Services",
+      "description": "Google Ads subcategory: Online Services under Internet & Telecom",
+      "parent_id": "google_1071",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "online",
+        "services"
+      ]
+    },
+    {
+      "id": "google_1078",
+      "name": "Jobs & Education",
+      "description": "Google Ads category: Jobs & Education",
+      "parent_id": null,
+      "level": 1,
+      "source": "google",
+      "keywords": [
+        "education",
+        "jobs"
+      ]
+    },
+    {
+      "id": "google_1079",
+      "name": "Career Resources",
+      "description": "Google Ads subcategory: Career Resources under Jobs & Education",
+      "parent_id": "google_1078",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "resources",
+        "career"
+      ]
+    },
+    {
+      "id": "google_1080",
+      "name": "Colleges & Universities",
+      "description": "Google Ads subcategory: Colleges & Universities under Jobs & Education",
+      "parent_id": "google_1078",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "colleges",
+        "universities"
+      ]
+    },
+    {
+      "id": "google_1081",
+      "name": "Online Education",
+      "description": "Google Ads subcategory: Online Education under Jobs & Education",
+      "parent_id": "google_1078",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "education",
+        "online"
+      ]
+    },
+    {
+      "id": "google_1082",
+      "name": "Vocational Training",
+      "description": "Google Ads subcategory: Vocational Training under Jobs & Education",
+      "parent_id": "google_1078",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "training",
+        "vocational"
+      ]
+    },
+    {
+      "id": "google_1083",
+      "name": "Job Search",
+      "description": "Google Ads subcategory: Job Search under Jobs & Education",
+      "parent_id": "google_1078",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "search",
+        "job"
+      ]
+    },
+    {
+      "id": "google_1084",
+      "name": "Professional Development",
+      "description": "Google Ads subcategory: Professional Development under Jobs & Education",
+      "parent_id": "google_1078",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "professional",
+        "development"
+      ]
+    },
+    {
+      "id": "google_1085",
+      "name": "Shopping",
+      "description": "Google Ads category: Shopping",
+      "parent_id": null,
+      "level": 1,
+      "source": "google",
+      "keywords": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "google_1086",
+      "name": "Clothing",
+      "description": "Google Ads subcategory: Clothing under Shopping",
+      "parent_id": "google_1085",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "clothing"
+      ]
+    },
+    {
+      "id": "google_1087",
+      "name": "Jewelry",
+      "description": "Google Ads subcategory: Jewelry under Shopping",
+      "parent_id": "google_1085",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "jewelry"
+      ]
+    },
+    {
+      "id": "google_1088",
+      "name": "Shoes",
+      "description": "Google Ads subcategory: Shoes under Shopping",
+      "parent_id": "google_1085",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "shoes"
+      ]
+    },
+    {
+      "id": "google_1089",
+      "name": "Electronics Shopping",
+      "description": "Google Ads subcategory: Electronics Shopping under Shopping",
+      "parent_id": "google_1085",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "shopping",
+        "electronics"
+      ]
+    },
+    {
+      "id": "google_1090",
+      "name": "Online Marketplace",
+      "description": "Google Ads subcategory: Online Marketplace under Shopping",
+      "parent_id": "google_1085",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "marketplace",
+        "online"
+      ]
+    },
+    {
+      "id": "google_1091",
+      "name": "Department Stores",
+      "description": "Google Ads subcategory: Department Stores under Shopping",
+      "parent_id": "google_1085",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "department",
+        "stores"
+      ]
+    },
+    {
+      "id": "google_1092",
+      "name": "Specialty Retail",
+      "description": "Google Ads subcategory: Specialty Retail under Shopping",
+      "parent_id": "google_1085",
+      "level": 2,
+      "source": "google",
+      "keywords": [
+        "specialty",
+        "retail"
+      ]
+    },
+    {
+      "id": "facebook_2000",
+      "name": "Technology",
+      "description": "Facebook/Meta interest category: Technology",
+      "parent_id": null,
+      "level": 1,
+      "source": "facebook",
+      "keywords": [
+        "technology",
+        "digital",
+        "software"
+      ]
+    },
+    {
+      "id": "facebook_2001",
+      "name": "Software",
+      "description": "Facebook/Meta interest: Software under Technology",
+      "parent_id": "facebook_2000",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "software"
+      ]
+    },
+    {
+      "id": "facebook_2002",
+      "name": "Hardware",
+      "description": "Facebook/Meta interest: Hardware under Technology",
+      "parent_id": "facebook_2000",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "facebook_2003",
+      "name": "Mobile Apps",
+      "description": "Facebook/Meta interest: Mobile Apps under Technology",
+      "parent_id": "facebook_2000",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "mobile",
+        "apps"
+      ]
+    },
+    {
+      "id": "facebook_2004",
+      "name": "AI & Machine Learning",
+      "description": "Facebook/Meta interest: AI & Machine Learning under Technology",
+      "parent_id": "facebook_2000",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "learning",
+        "machine",
+        "ai"
+      ]
+    },
+    {
+      "id": "facebook_2005",
+      "name": "Cybersecurity",
+      "description": "Facebook/Meta interest: Cybersecurity under Technology",
+      "parent_id": "facebook_2000",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "id": "facebook_2006",
+      "name": "Cloud Computing",
+      "description": "Facebook/Meta interest: Cloud Computing under Technology",
+      "parent_id": "facebook_2000",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "cloud",
+        "computing"
+      ]
+    },
+    {
+      "id": "facebook_2007",
+      "name": "Gaming Technology",
+      "description": "Facebook/Meta interest: Gaming Technology under Technology",
+      "parent_id": "facebook_2000",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "software",
+        "technology",
+        "digital",
+        "gaming"
+      ]
+    },
+    {
+      "id": "facebook_2008",
+      "name": "Business & Entrepreneurship",
+      "description": "Facebook/Meta interest category: Business & Entrepreneurship",
+      "parent_id": null,
+      "level": 1,
+      "source": "facebook",
+      "keywords": [
+        "entrepreneurship",
+        "business",
+        "enterprise",
+        "corporate",
+        "commercial"
+      ]
+    },
+    {
+      "id": "facebook_2009",
+      "name": "Startups",
+      "description": "Facebook/Meta interest: Startups under Business & Entrepreneurship",
+      "parent_id": "facebook_2008",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "startups"
+      ]
+    },
+    {
+      "id": "facebook_2010",
+      "name": "Marketing",
+      "description": "Facebook/Meta interest: Marketing under Business & Entrepreneurship",
+      "parent_id": "facebook_2008",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "marketing"
+      ]
+    },
+    {
+      "id": "facebook_2011",
+      "name": "Sales",
+      "description": "Facebook/Meta interest: Sales under Business & Entrepreneurship",
+      "parent_id": "facebook_2008",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "sales"
+      ]
+    },
+    {
+      "id": "facebook_2012",
+      "name": "Leadership",
+      "description": "Facebook/Meta interest: Leadership under Business & Entrepreneurship",
+      "parent_id": "facebook_2008",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "leadership"
+      ]
+    },
+    {
+      "id": "facebook_2013",
+      "name": "Small Business",
+      "description": "Facebook/Meta interest: Small Business under Business & Entrepreneurship",
+      "parent_id": "facebook_2008",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "small",
+        "business",
+        "enterprise",
+        "corporate",
+        "commercial"
+      ]
+    },
+    {
+      "id": "facebook_2014",
+      "name": "Consulting",
+      "description": "Facebook/Meta interest: Consulting under Business & Entrepreneurship",
+      "parent_id": "facebook_2008",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "consulting"
+      ]
+    },
+    {
+      "id": "facebook_2015",
+      "name": "E-commerce",
+      "description": "Facebook/Meta interest: E-commerce under Business & Entrepreneurship",
+      "parent_id": "facebook_2008",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "e-commerce"
+      ]
+    },
+    {
+      "id": "facebook_2016",
+      "name": "Digital Marketing",
+      "description": "Facebook/Meta interest: Digital Marketing under Business & Entrepreneurship",
+      "parent_id": "facebook_2008",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "digital",
+        "marketing"
+      ]
+    },
+    {
+      "id": "facebook_2017",
+      "name": "Lifestyle",
+      "description": "Facebook/Meta interest category: Lifestyle",
+      "parent_id": null,
+      "level": 1,
+      "source": "facebook",
+      "keywords": [
+        "lifestyle"
+      ]
+    },
+    {
+      "id": "facebook_2018",
+      "name": "Fashion",
+      "description": "Facebook/Meta interest: Fashion under Lifestyle",
+      "parent_id": "facebook_2017",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "fashion"
+      ]
+    },
+    {
+      "id": "facebook_2019",
+      "name": "Beauty",
+      "description": "Facebook/Meta interest: Beauty under Lifestyle",
+      "parent_id": "facebook_2017",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "beauty"
+      ]
+    },
+    {
+      "id": "facebook_2020",
+      "name": "Wellness",
+      "description": "Facebook/Meta interest: Wellness under Lifestyle",
+      "parent_id": "facebook_2017",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "wellness"
+      ]
+    },
+    {
+      "id": "facebook_2021",
+      "name": "Luxury Goods",
+      "description": "Facebook/Meta interest: Luxury Goods under Lifestyle",
+      "parent_id": "facebook_2017",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "luxury",
+        "goods"
+      ]
+    },
+    {
+      "id": "facebook_2022",
+      "name": "Home Decor",
+      "description": "Facebook/Meta interest: Home Decor under Lifestyle",
+      "parent_id": "facebook_2017",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "home",
+        "decor"
+      ]
+    },
+    {
+      "id": "facebook_2023",
+      "name": "Personal Development",
+      "description": "Facebook/Meta interest: Personal Development under Lifestyle",
+      "parent_id": "facebook_2017",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "development",
+        "personal"
+      ]
+    },
+    {
+      "id": "facebook_2024",
+      "name": "Minimalism",
+      "description": "Facebook/Meta interest: Minimalism under Lifestyle",
+      "parent_id": "facebook_2017",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "minimalism"
+      ]
+    },
+    {
+      "id": "facebook_2025",
+      "name": "Entertainment",
+      "description": "Facebook/Meta interest category: Entertainment",
+      "parent_id": null,
+      "level": 1,
+      "source": "facebook",
+      "keywords": [
+        "entertainment"
+      ]
+    },
+    {
+      "id": "facebook_2026",
+      "name": "Movies",
+      "description": "Facebook/Meta interest: Movies under Entertainment",
+      "parent_id": "facebook_2025",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "movies"
+      ]
+    },
+    {
+      "id": "facebook_2027",
+      "name": "Music",
+      "description": "Facebook/Meta interest: Music under Entertainment",
+      "parent_id": "facebook_2025",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "music"
+      ]
+    },
+    {
+      "id": "facebook_2028",
+      "name": "Television",
+      "description": "Facebook/Meta interest: Television under Entertainment",
+      "parent_id": "facebook_2025",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "television"
+      ]
+    },
+    {
+      "id": "facebook_2029",
+      "name": "Streaming",
+      "description": "Facebook/Meta interest: Streaming under Entertainment",
+      "parent_id": "facebook_2025",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "streaming"
+      ]
+    },
+    {
+      "id": "facebook_2030",
+      "name": "Podcasts",
+      "description": "Facebook/Meta interest: Podcasts under Entertainment",
+      "parent_id": "facebook_2025",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "podcasts"
+      ]
+    },
+    {
+      "id": "facebook_2031",
+      "name": "Gaming",
+      "description": "Facebook/Meta interest: Gaming under Entertainment",
+      "parent_id": "facebook_2025",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "gaming"
+      ]
+    },
+    {
+      "id": "facebook_2032",
+      "name": "Comics",
+      "description": "Facebook/Meta interest: Comics under Entertainment",
+      "parent_id": "facebook_2025",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "comics"
+      ]
+    },
+    {
+      "id": "facebook_2033",
+      "name": "Celebrity News",
+      "description": "Facebook/Meta interest: Celebrity News under Entertainment",
+      "parent_id": "facebook_2025",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "news",
+        "celebrity"
+      ]
+    },
+    {
+      "id": "facebook_2034",
+      "name": "Sports & Fitness",
+      "description": "Facebook/Meta interest category: Sports & Fitness",
+      "parent_id": null,
+      "level": 1,
+      "source": "facebook",
+      "keywords": [
+        "sports",
+        "fitness"
+      ]
+    },
+    {
+      "id": "facebook_2035",
+      "name": "Professional Sports",
+      "description": "Facebook/Meta interest: Professional Sports under Sports & Fitness",
+      "parent_id": "facebook_2034",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "sports",
+        "professional"
+      ]
+    },
+    {
+      "id": "facebook_2036",
+      "name": "Fitness Training",
+      "description": "Facebook/Meta interest: Fitness Training under Sports & Fitness",
+      "parent_id": "facebook_2034",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "training",
+        "fitness"
+      ]
+    },
+    {
+      "id": "facebook_2037",
+      "name": "Yoga",
+      "description": "Facebook/Meta interest: Yoga under Sports & Fitness",
+      "parent_id": "facebook_2034",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "yoga"
+      ]
+    },
+    {
+      "id": "facebook_2038",
+      "name": "Running",
+      "description": "Facebook/Meta interest: Running under Sports & Fitness",
+      "parent_id": "facebook_2034",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "running"
+      ]
+    },
+    {
+      "id": "facebook_2039",
+      "name": "Team Sports",
+      "description": "Facebook/Meta interest: Team Sports under Sports & Fitness",
+      "parent_id": "facebook_2034",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "team",
+        "sports"
+      ]
+    },
+    {
+      "id": "facebook_2040",
+      "name": "Outdoor Sports",
+      "description": "Facebook/Meta interest: Outdoor Sports under Sports & Fitness",
+      "parent_id": "facebook_2034",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "outdoor",
+        "sports"
+      ]
+    },
+    {
+      "id": "facebook_2041",
+      "name": "Nutrition & Diet",
+      "description": "Facebook/Meta interest: Nutrition & Diet under Sports & Fitness",
+      "parent_id": "facebook_2034",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "nutrition",
+        "diet"
+      ]
+    },
+    {
+      "id": "facebook_2042",
+      "name": "Travel & Places",
+      "description": "Facebook/Meta interest category: Travel & Places",
+      "parent_id": null,
+      "level": 1,
+      "source": "facebook",
+      "keywords": [
+        "travel",
+        "trip",
+        "vacation",
+        "tourism",
+        "places"
+      ]
+    },
+    {
+      "id": "facebook_2043",
+      "name": "Adventure Travel",
+      "description": "Facebook/Meta interest: Adventure Travel under Travel & Places",
+      "parent_id": "facebook_2042",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "travel",
+        "trip",
+        "vacation",
+        "adventure",
+        "tourism"
+      ]
+    },
+    {
+      "id": "facebook_2044",
+      "name": "Luxury Travel",
+      "description": "Facebook/Meta interest: Luxury Travel under Travel & Places",
+      "parent_id": "facebook_2042",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "travel",
+        "trip",
+        "luxury",
+        "vacation",
+        "tourism"
+      ]
+    },
+    {
+      "id": "facebook_2045",
+      "name": "Budget Travel",
+      "description": "Facebook/Meta interest: Budget Travel under Travel & Places",
+      "parent_id": "facebook_2042",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "travel",
+        "trip",
+        "budget",
+        "vacation",
+        "tourism"
+      ]
+    },
+    {
+      "id": "facebook_2046",
+      "name": "Hotels",
+      "description": "Facebook/Meta interest: Hotels under Travel & Places",
+      "parent_id": "facebook_2042",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "hotels"
+      ]
+    },
+    {
+      "id": "facebook_2047",
+      "name": "Airlines",
+      "description": "Facebook/Meta interest: Airlines under Travel & Places",
+      "parent_id": "facebook_2042",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "airlines"
+      ]
+    },
+    {
+      "id": "facebook_2048",
+      "name": "Travel Photography",
+      "description": "Facebook/Meta interest: Travel Photography under Travel & Places",
+      "parent_id": "facebook_2042",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "travel",
+        "photography",
+        "trip",
+        "vacation",
+        "tourism"
+      ]
+    },
+    {
+      "id": "facebook_2049",
+      "name": "Local Tourism",
+      "description": "Facebook/Meta interest: Local Tourism under Travel & Places",
+      "parent_id": "facebook_2042",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "tourism",
+        "local"
+      ]
+    },
+    {
+      "id": "facebook_2050",
+      "name": "Food & Dining",
+      "description": "Facebook/Meta interest category: Food & Dining",
+      "parent_id": null,
+      "level": 1,
+      "source": "facebook",
+      "keywords": [
+        "dining",
+        "food",
+        "cuisine",
+        "cooking"
+      ]
+    },
+    {
+      "id": "facebook_2051",
+      "name": "Cooking",
+      "description": "Facebook/Meta interest: Cooking under Food & Dining",
+      "parent_id": "facebook_2050",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "facebook_2052",
+      "name": "Fine Dining",
+      "description": "Facebook/Meta interest: Fine Dining under Food & Dining",
+      "parent_id": "facebook_2050",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "dining",
+        "fine"
+      ]
+    },
+    {
+      "id": "facebook_2053",
+      "name": "Food Delivery",
+      "description": "Facebook/Meta interest: Food Delivery under Food & Dining",
+      "parent_id": "facebook_2050",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "dining",
+        "cooking",
+        "food",
+        "delivery",
+        "cuisine"
+      ]
+    },
+    {
+      "id": "facebook_2054",
+      "name": "Organic Food",
+      "description": "Facebook/Meta interest: Organic Food under Food & Dining",
+      "parent_id": "facebook_2050",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "dining",
+        "cooking",
+        "organic",
+        "food",
+        "cuisine"
+      ]
+    },
+    {
+      "id": "facebook_2055",
+      "name": "Vegan/Vegetarian",
+      "description": "Facebook/Meta interest: Vegan/Vegetarian under Food & Dining",
+      "parent_id": "facebook_2050",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "vegan",
+        "vegetarian"
+      ]
+    },
+    {
+      "id": "facebook_2056",
+      "name": "Wine & Spirits",
+      "description": "Facebook/Meta interest: Wine & Spirits under Food & Dining",
+      "parent_id": "facebook_2050",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "wine",
+        "spirits"
+      ]
+    },
+    {
+      "id": "facebook_2057",
+      "name": "Coffee Culture",
+      "description": "Facebook/Meta interest: Coffee Culture under Food & Dining",
+      "parent_id": "facebook_2050",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "coffee",
+        "culture"
+      ]
+    },
+    {
+      "id": "facebook_2058",
+      "name": "Education & Learning",
+      "description": "Facebook/Meta interest category: Education & Learning",
+      "parent_id": null,
+      "level": 1,
+      "source": "facebook",
+      "keywords": [
+        "learning",
+        "education"
+      ]
+    },
+    {
+      "id": "facebook_2059",
+      "name": "Online Courses",
+      "description": "Facebook/Meta interest: Online Courses under Education & Learning",
+      "parent_id": "facebook_2058",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "courses",
+        "online"
+      ]
+    },
+    {
+      "id": "facebook_2060",
+      "name": "Professional Certification",
+      "description": "Facebook/Meta interest: Professional Certification under Education & Learning",
+      "parent_id": "facebook_2058",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "professional",
+        "certification"
+      ]
+    },
+    {
+      "id": "facebook_2061",
+      "name": "Language Learning",
+      "description": "Facebook/Meta interest: Language Learning under Education & Learning",
+      "parent_id": "facebook_2058",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "language",
+        "learning"
+      ]
+    },
+    {
+      "id": "facebook_2062",
+      "name": "Skill Development",
+      "description": "Facebook/Meta interest: Skill Development under Education & Learning",
+      "parent_id": "facebook_2058",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "skill",
+        "development"
+      ]
+    },
+    {
+      "id": "facebook_2063",
+      "name": "Academic Research",
+      "description": "Facebook/Meta interest: Academic Research under Education & Learning",
+      "parent_id": "facebook_2058",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "academic",
+        "research"
+      ]
+    },
+    {
+      "id": "facebook_2064",
+      "name": "Educational Technology",
+      "description": "Facebook/Meta interest: Educational Technology under Education & Learning",
+      "parent_id": "facebook_2058",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "software",
+        "educational",
+        "digital",
+        "technology"
+      ]
+    },
+    {
+      "id": "facebook_2065",
+      "name": "Health & Medical",
+      "description": "Facebook/Meta interest category: Health & Medical",
+      "parent_id": null,
+      "level": 1,
+      "source": "facebook",
+      "keywords": [
+        "healthcare",
+        "health",
+        "wellness",
+        "medical"
+      ]
+    },
+    {
+      "id": "facebook_2066",
+      "name": "Healthcare",
+      "description": "Facebook/Meta interest: Healthcare under Health & Medical",
+      "parent_id": "facebook_2065",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "healthcare",
+        "wellness",
+        "medical"
+      ]
+    },
+    {
+      "id": "facebook_2067",
+      "name": "Medical Devices",
+      "description": "Facebook/Meta interest: Medical Devices under Health & Medical",
+      "parent_id": "facebook_2065",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "devices",
+        "medical"
+      ]
+    },
+    {
+      "id": "facebook_2068",
+      "name": "Mental Health",
+      "description": "Facebook/Meta interest: Mental Health under Health & Medical",
+      "parent_id": "facebook_2065",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "health",
+        "healthcare",
+        "medical",
+        "mental",
+        "wellness"
+      ]
+    },
+    {
+      "id": "facebook_2069",
+      "name": "Preventive Care",
+      "description": "Facebook/Meta interest: Preventive Care under Health & Medical",
+      "parent_id": "facebook_2065",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "care",
+        "preventive"
+      ]
+    },
+    {
+      "id": "facebook_2070",
+      "name": "Medical Research",
+      "description": "Facebook/Meta interest: Medical Research under Health & Medical",
+      "parent_id": "facebook_2065",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "research",
+        "medical"
+      ]
+    },
+    {
+      "id": "facebook_2071",
+      "name": "Health Insurance",
+      "description": "Facebook/Meta interest: Health Insurance under Health & Medical",
+      "parent_id": "facebook_2065",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "health",
+        "insurance",
+        "healthcare",
+        "medical",
+        "wellness"
+      ]
+    },
+    {
+      "id": "facebook_2072",
+      "name": "Telemedicine",
+      "description": "Facebook/Meta interest: Telemedicine under Health & Medical",
+      "parent_id": "facebook_2065",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "telemedicine"
+      ]
+    },
+    {
+      "id": "facebook_2073",
+      "name": "Finance & Investment",
+      "description": "Facebook/Meta interest category: Finance & Investment",
+      "parent_id": null,
+      "level": 1,
+      "source": "facebook",
+      "keywords": [
+        "financial",
+        "banking",
+        "investment",
+        "finance",
+        "money"
+      ]
+    },
+    {
+      "id": "facebook_2074",
+      "name": "Personal Finance",
+      "description": "Facebook/Meta interest: Personal Finance under Finance & Investment",
+      "parent_id": "facebook_2073",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "financial",
+        "banking",
+        "finance",
+        "personal",
+        "money"
+      ]
+    },
+    {
+      "id": "facebook_2075",
+      "name": "Investment",
+      "description": "Facebook/Meta interest: Investment under Finance & Investment",
+      "parent_id": "facebook_2073",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "investment"
+      ]
+    },
+    {
+      "id": "facebook_2076",
+      "name": "Cryptocurrency",
+      "description": "Facebook/Meta interest: Cryptocurrency under Finance & Investment",
+      "parent_id": "facebook_2073",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "cryptocurrency"
+      ]
+    },
+    {
+      "id": "facebook_2077",
+      "name": "Banking",
+      "description": "Facebook/Meta interest: Banking under Finance & Investment",
+      "parent_id": "facebook_2073",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "banking"
+      ]
+    },
+    {
+      "id": "facebook_2078",
+      "name": "Insurance",
+      "description": "Facebook/Meta interest: Insurance under Finance & Investment",
+      "parent_id": "facebook_2073",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "insurance"
+      ]
+    },
+    {
+      "id": "facebook_2079",
+      "name": "Financial Planning",
+      "description": "Facebook/Meta interest: Financial Planning under Finance & Investment",
+      "parent_id": "facebook_2073",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "financial",
+        "planning"
+      ]
+    },
+    {
+      "id": "facebook_2080",
+      "name": "Real Estate Investment",
+      "description": "Facebook/Meta interest: Real Estate Investment under Finance & Investment",
+      "parent_id": "facebook_2073",
+      "level": 2,
+      "source": "facebook",
+      "keywords": [
+        "real",
+        "investment",
+        "estate"
+      ]
+    }
+  ],
+  "metadata": {
+    "total_categories": 308,
+    "sources": [
+      "iab",
+      "google",
+      "facebook"
+    ],
+    "levels": [
+      1,
+      2
+    ]
+  }
+}

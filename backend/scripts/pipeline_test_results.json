@@ -1,0 +1,278 @@
+{
+  "timestamp": 1751467109.8709924,
+  "results": [
+    {
+      "url": "https://httpbin.org/html",
+      "success": true,
+      "title": "",
+      "text_length": 3594,
+      "num_images": 0,
+      "top_categories": [
+        {
+          "category_id": "iab_1-4",
+          "category_name": "Humor",
+          "confidence": 0.0,
+          "source": "iab",
+          "keywords": [
+            "humor"
+          ]
+        },
+        {
+          "category_id": "iab_3-5",
+          "category_name": "Construction",
+          "confidence": 0.0,
+          "source": "iab",
+          "keywords": [
+            "construction"
+          ]
+        },
+        {
+          "category_id": "iab_1-5",
+          "category_name": "Movies",
+          "confidence": 0.0,
+          "source": "iab",
+          "keywords": [
+            "movies"
+          ]
+        },
+        {
+          "category_id": "iab_3-8",
+          "category_name": "Green Solutions",
+          "confidence": 0.0,
+          "source": "iab",
+          "keywords": [
+            "solutions",
+            "green"
+          ]
+        },
+        {
+          "category_id": "iab_2-16",
+          "category_name": "Off-Road Vehicles",
+          "confidence": 0.0,
+          "source": "iab",
+          "keywords": [
+            "vehicles",
+            "off-road"
+          ]
+        }
+      ],
+      "performance": {
+        "extraction_time": 3.3318545818328857,
+        "embedding_time": 0.21193552017211914,
+        "search_time_ms": 2.709898995817639,
+        "total_time": 3.546703815460205
+      },
+      "metadata": {
+        "embedding_dimension": 512,
+        "text_length": 3594
+      },
+      "error_message": null
+    },
+    {
+      "url": "https://httpbin.org/html",
+      "success": true,
+      "title": "",
+      "text_length": 3594,
+      "num_images": 0,
+      "top_categories": [
+        {
+          "category_id": "iab_2-6",
+          "category_name": "Convertible",
+          "confidence": 0.0,
+          "source": "iab",
+          "keywords": [
+            "convertible"
+          ]
+        },
+        {
+          "category_id": "iab_2-13",
+          "category_name": "Luxury",
+          "confidence": 0.0,
+          "source": "iab",
+          "keywords": [
+            "luxury"
+          ]
+        },
+        {
+          "category_id": "iab_2-2",
+          "category_name": "Auto Repair",
+          "confidence": 0.0,
+          "source": "iab",
+          "keywords": [
+            "car",
+            "auto",
+            "vehicle",
+            "repair",
+            "automotive"
+          ]
+        }
+      ],
+      "performance": {
+        "extraction_time": 3.1987953186035156,
+        "embedding_time": 0.01741623878479004,
+        "search_time_ms": 3.475134988548234,
+        "total_time": 3.2201080322265625
+      },
+      "metadata": {
+        "embedding_dimension": 512,
+        "text_length": 3594
+      },
+      "error_message": null
+    },
+    {
+      "url": "https://example.com",
+      "success": true,
+      "title": "Example Domain",
+      "text_length": 187,
+      "num_images": 0,
+      "top_categories": [
+        {
+          "category_id": "iab_2-6",
+          "category_name": "Convertible",
+          "confidence": 0.0,
+          "source": "iab",
+          "keywords": [
+            "convertible"
+          ]
+        },
+        {
+          "category_id": "iab_2-7",
+          "category_name": "Coupe",
+          "confidence": 0.0,
+          "source": "iab",
+          "keywords": [
+            "coupe"
+          ]
+        },
+        {
+          "category_id": "iab_2-13",
+          "category_name": "Luxury",
+          "confidence": 0.0,
+          "source": "iab",
+          "keywords": [
+            "luxury"
+          ]
+        }
+      ],
+      "performance": {
+        "extraction_time": 1.2280848026275635,
+        "embedding_time": 0.01280665397644043,
+        "search_time_ms": 2.6749770040623844,
+        "total_time": 1.2438349723815918
+      },
+      "metadata": {
+        "embedding_dimension": 512,
+        "text_length": 187
+      },
+      "error_message": null
+    },
+    {
+      "url": "https://httpbin.org/robots.txt",
+      "success": true,
+      "title": "",
+      "text_length": 29,
+      "num_images": 0,
+      "top_categories": [
+        {
+          "category_id": "iab_2-6",
+          "category_name": "Convertible",
+          "confidence": 0.0,
+          "source": "iab",
+          "keywords": [
+            "convertible"
+          ]
+        },
+        {
+          "category_id": "iab_2-13",
+          "category_name": "Luxury",
+          "confidence": 0.0,
+          "source": "iab",
+          "keywords": [
+            "luxury"
+          ]
+        },
+        {
+          "category_id": "iab_2-2",
+          "category_name": "Auto Repair",
+          "confidence": 0.0,
+          "source": "iab",
+          "keywords": [
+            "car",
+            "auto",
+            "vehicle",
+            "repair",
+            "automotive"
+          ]
+        }
+      ],
+      "performance": {
+        "extraction_time": 1.489710807800293,
+        "embedding_time": 0.010438919067382812,
+        "search_time_ms": 2.2965079988352954,
+        "total_time": 1.5027008056640625
+      },
+      "metadata": {
+        "embedding_dimension": 512,
+        "text_length": 29
+      },
+      "error_message": null
+    },
+    {
+      "url": "not-a-url",
+      "success": false,
+      "title": "",
+      "text_length": 0,
+      "num_images": 0,
+      "top_categories": [],
+      "performance": {
+        "extraction_time": 0.43510866165161133,
+        "embedding_time": 0.0,
+        "search_time_ms": 0.0,
+        "total_time": 0.43512392044067383
+      },
+      "metadata": {
+        "embedding_dimension": 0,
+        "text_length": 0
+      },
+      "error_message": "Content extraction failed: Protocol error (Page.navigate): Cannot navigate to invalid URL"
+    },
+    {
+      "url": "https://this-domain-does-not-exist-12345.com",
+      "success": false,
+      "title": "",
+      "text_length": 0,
+      "num_images": 0,
+      "top_categories": [],
+      "performance": {
+        "extraction_time": 0.6251480579376221,
+        "embedding_time": 0.0,
+        "search_time_ms": 0.0,
+        "total_time": 0.6251676082611084
+      },
+      "metadata": {
+        "embedding_dimension": 0,
+        "text_length": 0
+      },
+      "error_message": "Content extraction failed: net::ERR_NAME_NOT_RESOLVED at https://this-domain-does-not-exist-12345.com/"
+    },
+    {
+      "url": "https://httpbin.org/status/404",
+      "success": false,
+      "title": "",
+      "text_length": 0,
+      "num_images": 0,
+      "top_categories": [],
+      "performance": {
+        "extraction_time": 2.1582202911376953,
+        "embedding_time": 0.0,
+        "search_time_ms": 0.0,
+        "total_time": 2.1582388877868652
+      },
+      "metadata": {
+        "embedding_dimension": 0,
+        "text_length": 0
+      },
+      "error_message": "Content extraction failed: HTTP 404"
+    }
+  ]
+}
