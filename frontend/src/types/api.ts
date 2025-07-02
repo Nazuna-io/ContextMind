@@ -73,9 +73,18 @@ export interface PerformanceMetricsResponse {
   timestamp: string;
 }
 
+export interface Category {
+  category_id: string;
+  category_name: string;
+  source: string;
+}
+
 export interface CategoriesResponse {
-  total_categories: number;
-  sources: string[];
+  data: {
+    categories: Category[];
+    total_categories: number;
+    sources: string[];
+  };
   message: string;
   filters_applied: {
     source?: string;
