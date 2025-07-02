@@ -157,7 +157,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         </Typography>
         <br />
         <Typography variant="caption" color="text.secondary">
-          Built for Moloco
+          Open Source
         </Typography>
       </Box>
     </Box>
