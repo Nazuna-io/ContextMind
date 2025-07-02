@@ -194,54 +194,85 @@ class ContentExtractor:
             )
     
     async def _extract_text(self, page: Page) -> str:
-        """Extract clean text content from page"""
+        """Extracts the main readable content from the page using a Readability-like algorithm."""
         
-        # Remove unwanted elements
-        await page.evaluate("""
-            () => {
-                // Remove scripts, styles, ads, navigation
-                const selectors = [
-                    'script', 'style', 'nav', 'header', 'footer',
-                    '.ad', '.advertisement', '.sidebar', '.menu',
-                    '[class*="ad-"]', '[id*="ad-"]', '[class*="sidebar"]',
-                    '.social-media', '.comments', '.related-articles'
-                ];
-                
-                selectors.forEach(selector => {
-                    document.querySelectorAll(selector).forEach(el => el.remove());
-                });
+        # Best-effort attempt to scroll the page and trigger lazy-loaded content
+        try:
+            await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            await page.wait_for_timeout(500)  # Wait for any lazy-loading to kick in
+            await page.evaluate("window.scrollTo(0, 0)")
+        except Exception:
+            pass  # Ignore errors, this is a best-effort attempt
+
+        # Execute a script in the page's context to find and score the best content element
+        content_script = """
+        () => {
+            const readabilityScores = new Map();
+            let topCandidate = null;
+
+            // Remove unlikely candidates and clutter
+            const toRemove = /combx|comment|community|disqus|extra|foot|header|menu|nav|remark|rss|shoutbox|sidebar|sponsor|ad-break|agegate|pagination|pager|popup|tweet|twitter/i;
+            document.querySelectorAll('body *').forEach(node => {
+                if (toRemove.test(node.className) || toRemove.test(node.id)) {
+                    node.remove();
+                }
+            });
+
+            const allElements = document.querySelectorAll('p, div, article');
+
+            for (const element of allElements) {
+                if (!element.checkVisibility()) continue;
+
+                const text = element.innerText.trim();
+                let score = 0;
+
+                // Score based on content length
+                score += text.length;
+
+                // Boost for certain tags
+                const tagName = element.tagName.toLowerCase();
+                if (tagName === 'article') score *= 1.5;
+                if (tagName === 'main') score *= 1.3;
+
+                // Score paragraphs inside
+                const paragraphs = element.querySelectorAll('p');
+                score += paragraphs.length * 25;
+
+                // Reduce score for too many links
+                const links = element.querySelectorAll('a');
+                if (links.length > 2) {
+                    score *= 0.8 / links.length;
+                }
+
+                // Assign score to the parent
+                const parent = element.parentElement;
+                if (parent) {
+                    const currentScore = readabilityScores.get(parent) || 0;
+                    readabilityScores.set(parent, currentScore + score);
+                }
             }
-        """)
+
+            let maxScore = 0;
+            for (const [element, score] of readabilityScores.entries()) {
+                if (score > maxScore) {
+                    maxScore = score;
+                    topCandidate = element;
+                }
+            }
+            
+            if (topCandidate) {
+                // Further clean the top candidate
+                topCandidate.querySelectorAll('a, button, input').forEach(el => el.remove());
+                return topCandidate.innerText;
+            }
+
+            // Fallback for pages that don't fit the model well
+            return document.body.innerText;
+        }
+        """
         
-        # Extract main content
-        content_selectors = [
-            'article',
-            'main',
-            '[role="main"]',
-            '.content',
-            '.main-content',
-            '.post-content',
-            '.article-content',
-            'body'
-        ]
-        
-        text_content = ""
-        
-        for selector in content_selectors:
-            try:
-                element = await page.query_selector(selector)
-                if element:
-                    text = await element.inner_text()
-                    if len(text) > len(text_content):
-                        text_content = text
-                    break
-            except:
-                continue
-        
-        # Clean up text
-        text_content = self._clean_text(text_content)
-        
-        return text_content
+        extracted_text = await page.evaluate(content_script)
+        return self._clean_text(extracted_text)
     
     async def _extract_title(self, page: Page) -> str:
         """Extract page title"""

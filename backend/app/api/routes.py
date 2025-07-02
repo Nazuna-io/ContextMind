@@ -272,34 +272,36 @@ async def list_categories(
     limit: Optional[int] = Query(None, ge=1, le=1000, description="Limit number of categories returned")
 ):
     """
-    List all available ad categories in the system
+    List all available ad categories in the taxonomy
+    
+    Provides filters for source and limiting results
     """
     global pipeline
-    
-    if not pipeline:
-        raise HTTPException(status_code=503, detail="Pipeline not initialized")
-    
+    if not pipeline or not pipeline.taxonomy_manager:
+        raise HTTPException(status_code=503, detail="Taxonomy not loaded")
+        
     try:
-        # Get vector search statistics to confirm categories are loaded
-        status = await pipeline.get_pipeline_status()
+        # Get all categories from the taxonomy manager
+        all_categories = await pipeline.taxonomy_manager.load_taxonomy()
         
-        if not status.get("categories_loaded", False):
-            raise HTTPException(status_code=503, detail="Categories not loaded")
+        # Apply filters
+        filtered_categories = all_categories
+        if source:
+            filtered_categories = [cat for cat in filtered_categories if cat.source == source]
         
-        # For now, return basic category info
-        # In a full implementation, you'd query the taxonomy manager
-        vector_stats = status.get("vector_search", {})
+        total_before_limit = len(filtered_categories)
         
+        if limit:
+            filtered_categories = filtered_categories[:limit]
+            
         return {
-            "total_categories": vector_stats.get("total_embeddings", 0),
-            "sources": ["iab", "google", "facebook"],
-            "message": "Use /analyze endpoint to get contextual categories for your content",
-            "filters_applied": {
-                "source": source,
-                "limit": limit
-            }
+            "total_categories": total_before_limit,
+            "returned_categories": len(filtered_categories),
+            "sources": list(pipeline.taxonomy_manager.sources.keys()),
+            "filters_applied": {"source": source, "limit": limit},
+            "categories": [cat.to_dict() for cat in filtered_categories]
         }
-        
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to retrieve categories: {str(e)}")
 

@@ -88,10 +88,11 @@ class ContextMindPipeline:
         self.max_concurrent_extractions = max_concurrent_extractions
         
         # Core components
-        self.embedder = None
-        self.search_engine = None
-        self.content_extractor = None
-        self.matcher = None
+        self.embedder: Optional[MultiGPUEmbedder] = None
+        self.search_engine: Optional[VectorSearchEngine] = None
+        self.content_extractor: Optional[ContentExtractor] = None
+        self.matcher: Optional[ContextualMatcher] = None
+        self.taxonomy_manager: Optional[TaxonomyManager] = None
         
         # State
         self.initialized = False
@@ -129,8 +130,12 @@ class ContextMindPipeline:
             # 4. Create Contextual Matcher
             print("  4️⃣ Creating Contextual Matcher...")
             self.matcher = ContextualMatcher(self.embedder, self.search_engine)
+
+            # 5. Initialize Taxonomy Manager
+            print("  5️⃣ Initializing Taxonomy Manager...")
+            self.taxonomy_manager = TaxonomyManager()
             
-            # 5. Load ad categories if not already loaded
+            # 6. Load ad categories if not already loaded
             await self._ensure_categories_loaded()
             
             self.initialized = True
@@ -157,8 +162,7 @@ class ContextMindPipeline:
         print("  📚 Loading ad taxonomy and generating embeddings...")
         
         # Load taxonomy
-        taxonomy_manager = TaxonomyManager()
-        categories = await taxonomy_manager.load_taxonomy()
+        categories = await self.taxonomy_manager.load_taxonomy()
         
         if not categories:
             raise RuntimeError("No ad categories found. Please run create_taxonomy.py first")
