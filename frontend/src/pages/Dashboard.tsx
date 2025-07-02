@@ -10,6 +10,7 @@ import {
   LinearProgress,
   IconButton,
   Button,
+  CircularProgress,
 } from '@mui/material';
 import {
   Analytics as AnalyticsIcon,
@@ -22,8 +23,177 @@ import {
 import { motion } from 'framer-motion';
 import { useDashboardData } from '../hooks/useAPI';
 
+// Import API types
+import { 
+  SystemStatusResponse, 
+  PerformanceMetricsResponse, 
+  CategoriesResponse,
+  VectorSearchPerformance,
+  Category
+} from '../types/api';
+
+// Extended types for our UI
+interface SystemStatusData extends Omit<SystemStatusResponse, 'components'> {
+  components: {
+    database: boolean;
+    api: boolean;
+    cache: boolean;
+    worker: boolean;
+    [key: string]: boolean; // Allow for additional components
+  };
+  timestamp: string;
+  version?: string;
+  vector_search?: {
+    total_embeddings: number;
+    collections: number;
+  };
+}
+
+interface PerformanceData extends Omit<VectorSearchPerformance, 'total_queries' | 'last_updated'> {
+  total_queries: number;
+  last_updated: string;
+  // Add any additional properties needed by the UI
+  [key: string]: any;
+}
+
+interface CategoriesData {
+  categories: Array<Category | string>; // Handle both Category objects and strings
+  total_categories: number;
+  sources: string[];
+}
+
 const Dashboard: React.FC = () => {
-  const { systemStatus, performanceMetrics, categories, isLoading, refetchAll } = useDashboardData();
+  const { systemStatus, performanceMetrics, categories, health, isLoading, hasError, refetchAll } = useDashboardData();
+
+  // Handle refresh button click
+  const handleRefresh = () => {
+    refetchAll();
+  };
+
+  // Safely access system status with defaults
+  const systemStatusResponse = systemStatus?.data;
+  const systemStatusData: SystemStatusData = {
+    status: systemStatusResponse?.status || 'unknown',
+    initialized: systemStatusResponse?.initialized || false,
+    categories_loaded: systemStatusResponse?.categories_loaded || false,
+    components: {
+      database: systemStatusResponse?.components?.content_extractor || false,
+      api: systemStatusResponse?.components?.embedder || false,
+      cache: systemStatusResponse?.components?.search_engine || false,
+      worker: systemStatusResponse?.components?.matcher || false,
+    },
+    timestamp: systemStatusResponse?.timestamp || new Date().toISOString(),
+    vector_search: systemStatusResponse?.vector_search || {
+      total_embeddings: 0,
+      collections: 0
+    }
+  };
+
+  const components = systemStatusData.components;
+  
+  // Extract performance data with defaults
+  const performanceMetricsData = performanceMetrics?.data;
+  const vectorSearchPerf = performanceMetricsData?.vector_search_performance;
+  const performanceData: PerformanceData = {
+    average_time_ms: vectorSearchPerf?.average_time_ms || 0,
+    median_time_ms: vectorSearchPerf?.median_time_ms || 0,
+    p95_time_ms: vectorSearchPerf?.p95_time_ms || 0,
+    p99_time_ms: vectorSearchPerf?.p99_time_ms || 0,
+    sub_10ms_percent: vectorSearchPerf?.sub_10ms_percent || 0,
+    queries_per_second: vectorSearchPerf?.queries_per_second || 0,
+    total_queries: vectorSearchPerf?.total_queries || 0,
+    last_updated: performanceMetricsData?.timestamp || new Date().toISOString()
+  };
+
+  // Extract categories data with defaults
+  const categoriesResponse = categories?.data?.data;
+  const categoriesData: CategoriesData = {
+    categories: Array.isArray(categoriesResponse?.categories) 
+      ? categoriesResponse.categories 
+      : [],
+    total_categories: categoriesResponse?.total_categories || 0,
+    sources: Array.isArray(categoriesResponse?.sources)
+      ? categoriesResponse.sources
+      : []
+  };
+  
+  // Show loading state if any data is still loading
+  if (isLoading) {
+    return (
+      <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+        <Typography variant="h6" sx={{ mr: 2 }}>Loading Dashboard...</Typography>
+        <LinearProgress sx={{ width: '200px' }} />
+      </Box>
+    );
+  }
+
+  // Handle error state if any query failed
+  if (hasError) {
+    return (
+      <Box sx={{ p: 3, textAlign: 'center' }}>
+        <Typography color="error" variant="h6" gutterBottom>
+          Error loading dashboard data
+        </Typography>
+        <Button
+          variant="contained"
+          color="primary"
+          onClick={handleRefresh}
+          startIcon={<RefreshIcon />}
+          sx={{ mr: 2 }}
+          aria-label="Refresh dashboard data"
+        >
+          Refresh
+        </Button>
+      </Box>
+    );
+  }
+
+  // Debug: log data for development
+  if (process.env.NODE_ENV === 'development') {
+    console.log('System status:', systemStatusData);
+    console.log('Performance data:', performanceData);
+    console.log('Categories data:', categoriesData);
+  }
+
+  // Define stats with safe data access
+  const stats = [
+    {
+      title: 'Avg Search Time',
+      value: performanceData.average_time_ms,
+      unit: 'ms',
+      target: '< 10ms',
+      icon: <SpeedIcon />,
+      color: '#667eea',
+      trend: '-5%',
+    },
+    {
+      title: 'Queries/Second',
+      value: performanceData.queries_per_second,
+      unit: 'QPS',
+      target: '> 500',
+      icon: <TrendingIcon />,
+      color: '#f5576c',
+      trend: '+12%',
+    },
+    {
+      title: 'Available Categories',
+      value: categoriesData.total_categories || 0,
+      unit: 'categories',
+      target: '300+ categories',
+      icon: <CategoryIcon />,
+      color: '#764ba2',
+      trend: 'New',
+    },
+    {
+      title: 'Success Rate',
+      value: performanceData.sub_10ms_percent,
+      unit: '%',
+      target: '99%+ accuracy',
+      icon: <AnalyticsIcon />,
+      color: '#dd6b20',
+      trend: '+5%',
+    },
+  ];
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -39,45 +209,6 @@ const Dashboard: React.FC = () => {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0 },
   };
-
-  const stats = [
-    {
-      title: 'Vector Search Speed',
-      value: performanceMetrics?.data?.vector_search_performance?.average_time_ms || 0,
-      unit: 'ms',
-      target: '< 10ms',
-      icon: <SpeedIcon />,
-      color: '#667eea',
-      trend: '+15%',
-    },
-    {
-      title: 'System Performance',
-      value: performanceMetrics?.data?.vector_search_performance?.queries_per_second || 0,
-      unit: 'QPS',
-      target: '500+ QPS',
-      icon: <TrendingIcon />,
-      color: '#38a169',
-      trend: '+23%',
-    },
-    {
-      title: 'Available Categories',
-      value: categories?.data?.data?.total_categories || 0,
-      unit: 'categories',
-      target: '300+ categories',
-      icon: <CategoryIcon />,
-      color: '#764ba2',
-      trend: 'New',
-    },
-    {
-      title: 'Success Rate',
-      value: performanceMetrics?.data?.vector_search_performance?.sub_10ms_percent || 0,
-      unit: '%',
-      target: '99%+ accuracy',
-      icon: <AnalyticsIcon />,
-      color: '#dd6b20',
-      trend: '+5%',
-    },
-  ];
 
   return (
     <motion.div
@@ -106,7 +237,7 @@ const Dashboard: React.FC = () => {
                 '&:hover': { backgroundColor: 'rgba(102, 126, 234, 0.2)' },
               }}
             >
-              <RefreshIcon />
+              <RefreshIcon fontSize="small" aria-hidden="true" />
             </IconButton>
             
             <Button
@@ -134,38 +265,36 @@ const Dashboard: React.FC = () => {
                     System Status
                   </Typography>
                   <Typography variant="body2" sx={{ opacity: 0.9 }}>
-                    {systemStatus?.data?.initialized ? 'All systems operational' : 'Initializing...'}
+                    {systemStatusData.initialized ? 'All systems operational' : 'Initializing...'}
                   </Typography>
                 </Box>
                 
                 <Chip
-                  label={systemStatus?.data?.status || 'Loading'}
-                  color={systemStatus?.data?.initialized ? 'success' : 'warning'}
+                  label={systemStatusData.status}
+                  color={systemStatusData.initialized ? 'success' : 'warning'}
                   sx={{
-                    backgroundColor: systemStatus?.data?.initialized ? 'rgba(76, 175, 80, 0.2)' : 'rgba(255, 152, 0, 0.2)',
+                    backgroundColor: systemStatusData.initialized ? 'rgba(76, 175, 80, 0.2)' : 'rgba(255, 152, 0, 0.2)',
                     color: 'white',
                     fontWeight: 600,
                   }}
                 />
               </Box>
               
-              {systemStatus?.data && (
-                <Box sx={{ mt: 2 }}>
-                  <LinearProgress
-                    variant="determinate"
-                    value={
-                      Object.values(systemStatus.data.components).filter(Boolean).length / 
-                      Object.keys(systemStatus.data.components).length * 100
-                    }
-                    sx={{
-                      backgroundColor: 'rgba(255, 255, 255, 0.2)',
-                      '& .MuiLinearProgress-bar': {
-                        backgroundColor: 'rgba(255, 255, 255, 0.8)',
-                      },
-                    }}
-                  />
-                </Box>
-              )}
+              <Box sx={{ mt: 2 }}>
+                <LinearProgress
+                  variant="determinate"
+                  value={
+                    (Object.values(components).filter(Boolean).length / 
+                    Math.max(Object.keys(components).length, 1)) * 100
+                  }
+                  sx={{
+                    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+                    '& .MuiLinearProgress-bar': {
+                      backgroundColor: 'rgba(255, 255, 255, 0.8)',
+                    },
+                  }}
+                />
+              </Box>
             </CardContent>
           </Card>
         </motion.div>
@@ -199,7 +328,9 @@ const Dashboard: React.FC = () => {
                       
                       <Box sx={{ flexGrow: 1 }}>
                         <Typography variant="h4" fontWeight="bold" color={stat.color}>
-                          {typeof stat.value === 'number' ? stat.value.toFixed(stat.value < 10 ? 2 : 0) : stat.value}
+                          {typeof stat.value === 'number' && !isNaN(stat.value)
+                            ? stat.value.toFixed(stat.value < 10 ? 2 : 0)
+                            : '-'}
                           <Typography component="span" variant="h6" color="text.secondary" sx={{ ml: 0.5 }}>
                             {stat.unit}
                           </Typography>
