@@ -64,7 +64,7 @@ app = FastAPI(
     * **Content Extraction**: Playwright-based web scraping
     * **GPU Acceleration**: Multi-GPU pipeline (4x RTX 3090)
     
-    Built for the **Moloco Interview Demo** - Showcasing enterprise-grade ML infrastructure.
+    Open-source contextual advertising platform - Showcasing enterprise-grade ML infrastructure.
     """,
     version="1.0.0",
     contact={
@@ -237,7 +237,7 @@ curl "http://localhost:8000/api/v1/demo?url=https://example.com"
             </pre>
             
             <p style="margin-top: 2rem; text-align: center; color: #718096;">
-                Built for <strong>Moloco Interview Demo</strong> | 
+                Open-source <strong>Contextual AI Platform</strong> | 
                 <a href="https://github.com/contextmind/api" style="color: #667eea;">View Source</a>
             </p>
         </div>
@@ -282,8 +282,23 @@ async def global_exception_handler(request: Request, exc: Exception):
 async def startup_event():
     """Application startup tasks"""
     logger.info("🚀 ContextMind API starting up...")
-    logger.info("🔧 Initializing ML pipeline...")
-    # Pipeline initialization is handled in the router
+    logger.info(f"🕐 Startup time: {datetime.now().isoformat()}")
+    
+    try:
+        logger.info("🔧 Initializing ML pipeline...")
+        # Import and initialize components
+        from .core.pipeline import ContextMindPipeline
+        
+        # Create global pipeline instance
+        app.state.pipeline = None  # Will be lazy-loaded
+        logger.info("✅ ML pipeline ready for lazy initialization")
+        
+    except Exception as e:
+        logger.error(f"❌ Startup error: {e}")
+        logger.error("💡 Pipeline will be initialized on first request")
+        app.state.pipeline = None
+    
+    logger.info("✅ ContextMind API startup complete!")
 
 
 # Shutdown event  
@@ -291,8 +306,20 @@ async def startup_event():
 async def shutdown_event():
     """Application shutdown tasks"""
     logger.info("🛑 ContextMind API shutting down...")
-    logger.info("🧹 Cleaning up resources...")
-    # Cleanup is handled in the router
+    logger.info(f"🕐 Shutdown time: {datetime.now().isoformat()}")
+    
+    try:
+        # Cleanup pipeline if it exists
+        if hasattr(app.state, 'pipeline') and app.state.pipeline is not None:
+            logger.info("🧹 Cleaning up ML pipeline...")
+            # Add any specific cleanup here if needed
+            app.state.pipeline = None
+            logger.info("✅ ML pipeline cleanup complete")
+        
+    except Exception as e:
+        logger.error(f"❌ Shutdown error: {e}")
+    
+    logger.info("✅ ContextMind API shutdown complete!")
 
 
 # CLI runner
